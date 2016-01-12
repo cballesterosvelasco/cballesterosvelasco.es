@@ -1,0 +1,9 @@
+---
+layout: post
+categories: resume certs
+tags: japanese
+links:
+- http://japones.uv.es/
+---
+
+Curso de 40 horas de japonés de nivel 1 (organizado por el instituto confucio)

@@ -1,6 +1,5 @@
 ---
 layout: post
-date:   2016-01-12 15:37:25 +0100
 categories: resume certs
 tags: MySQL English
 ---
