@@ -1,0 +1,19 @@
+---
+layout: post
+categories: resume jobs
+until: 2011-12-01
+tags: Html JavaScript CSS PHP MongoDB GIT Juegos TDD Web XNA HaXe Photoshop Linux OpenGL Opengl Shader Language
+links:
+- https://apps.facebook.com/our_com
+- http://our.com/
+- http://www.netwizzy.es/
+- https://github.com/soywiz/smrr-server
+icon: our.png
+---
+
+* Trabajado como programador en The Netwizzy Company para Our.com.
+* Programación en actionscript3 para juegos de facebook.
+* Integración con facebook desde html, javascript y as3.
+* Creado sistema de encriptación y compresión incremental de protocolo para smartfoxserver usando java.
+* Creado deployer en C#.
+* Creado servidor de rankings masivos en tiempo real.

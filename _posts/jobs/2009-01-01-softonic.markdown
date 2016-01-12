@@ -1,0 +1,12 @@
+---
+layout: post
+categories: resume jobs
+until: 2010-01-01
+tags: PHP XML C# D MySQL Sphinx SVN TDD Web Linux
+links:
+- https://softonic.com/
+icon: softonic.png
+---
+
+Web developer at [softonic.com](http://softonic.com/).
+
