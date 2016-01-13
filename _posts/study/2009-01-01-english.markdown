@@ -1,0 +1,11 @@
+---
+layout: post
+categories: resume study
+tags: english
+datetype: year
+links:
+- http://www.trainingexpress.es/en/home/
+---
+
+Curso de 43 horas de inglés pre-intermediate impartido por Training Express SL.
+

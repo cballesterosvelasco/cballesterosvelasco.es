@@ -1,0 +1,9 @@
+---
+layout: post
+categories: resume certs
+tags: php english
+links:
+- http://zend.com/zce.php?c=ZEND002412&r=212545372
+---
+
+Ingeniero certificado Zend (De los 1,000 primeros).

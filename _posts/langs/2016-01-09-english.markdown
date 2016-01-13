@@ -1,0 +1,9 @@
+---
+layout: post
+categories: resume langs
+datetype: none
+tags: english
+---
+
+Estudié inglés hasta la universidad y leo contínuamente artículos en inglés. Mi comprensión es bastante buena, pero me cuesta entablar conversación.
+

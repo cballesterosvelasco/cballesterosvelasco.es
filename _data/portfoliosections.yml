@@ -4,3 +4,17 @@
 - id: certs
   title: Certifications
 
+- id: awards
+  title: Achievements, awards, contests and olympiads
+
+- id: talks
+  title: Talks and Lectures
+
+- id: langs
+  title: Languages
+
+- id: oss
+  title: Open Source Software
+
+- id: study
+  title: Academic

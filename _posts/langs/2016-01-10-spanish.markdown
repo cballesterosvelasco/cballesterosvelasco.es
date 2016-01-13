@@ -1,0 +1,8 @@
+---
+layout: post
+categories: resume langs
+datetype: none
+tags: spanish
+---
+
+Nací en España y soy nativo.

@@ -14,8 +14,31 @@ layout: default
           {% if post.icon %}
           <img src="img/icons/{{ post.icon }}" />
           {% endif %}
-          <span class="post-meta">{{ post.date | date: "%b %Y" }}</span> -
-          <span class="post-meta">{{ post.until | date: "%b %Y" }}</span>
+            {% case post.datetype %}
+            {% when "none" %}
+            {% when "season" %}
+                <span class="post-meta">{{ post.date | date: "%Y" }} -
+                {% assign month = post.date | date: "%m" | round %}
+                {% case month %}
+                {% when 1 or 2 or 3 %}
+                Season1
+                {% when 4 or 5 or 6 %}
+                Season2
+                {% when 7 or 8 or 9 %}
+                Season3
+                {% when 10 or 11 or 12 %}
+                Season4
+                {% else %}
+                Error
+                {% endcase %}
+                </span>
+            {% when "year" %}
+            <span class="post-meta">{{ post.date | date: "%Y" }}</span> -
+            <span class="post-meta">{{ post.until | date: "%Y" }}</span>
+            {% else %}
+            <span class="post-meta">{{ post.date | date: "%b %Y" }}</span> -
+            <span class="post-meta">{{ post.until | date: "%b %Y" }}</span>
+            {% endcase %}
           {{ post.content }}
           {% for tag in post.tags %}
           <span>{{ tag }}</span>
