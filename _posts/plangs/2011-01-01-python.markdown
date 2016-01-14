@@ -1,0 +1,11 @@
+---
+layout: post
+categories: resume plangs
+tags: python Web
+datetype: none
+title: Python
+proficency: Basic
+icon: python.png
+---
+
+Utilizado Python en un par de proyectos. Utilizado con google appengine y django.

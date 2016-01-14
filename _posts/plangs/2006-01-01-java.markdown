@@ -1,0 +1,20 @@
+---
+layout: post
+categories: resume plangs
+tags: Java C/C++ php games
+datetype: year
+until: now
+title: Java
+proficency: Advanced
+icon: java.png
+links:
+- http://www.oracle.com/technetwork/java/index.html
+- http://code.google.com/p/jpcsp/
+- https://github.com/soywiz/phpJavaVM
+---
+
+Conocimientos básicos de J2SE y J2ME. Desarrollado un par de juegos para móviles en J2ME y alguna demo.
+Conocimiento sobre la arquitecturá orientada a objetos de java. Conocimiento de API básica.
+Conocimientos elementales sobre la plataforma de desarrollo para móviles Android.
+Integrado código C++ en java mediante JNI. Colaborado en el emulador de PSP Jpcsp.
+Creada máquina virtual de java en php.

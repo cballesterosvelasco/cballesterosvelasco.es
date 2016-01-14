@@ -1,8 +1,8 @@
 ---
 layout: post
-categories: resume study
+categories: resume studies
 tags: japanese
-datetype: season
+datetype: year
 links:
 - http://www.uv.es/confucio/
 ---

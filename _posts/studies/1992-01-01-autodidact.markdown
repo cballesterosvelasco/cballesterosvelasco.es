@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: resume study
+categories: resume studies
 datetype: none
 ---
 

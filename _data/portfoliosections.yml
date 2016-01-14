@@ -16,8 +16,11 @@
 - id: oss
   title: Open Source Software
 
-- id: study
+- id: studies
   title: Academic
 
 - id: plangs
   title: Programming Languages
+
+- id: dbs
+  title: Databases

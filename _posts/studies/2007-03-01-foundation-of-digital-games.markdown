@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: resume study
+categories: resume studies
 until: 2007-04-01
 tags: games
 datetype: month

@@ -9,6 +9,7 @@ proficency: Expert
 links:
 - http://www.zend.com/store/education/certification/authenticate.php?ClientCandidateID=ZEND002412&RegistrationID=212545372
 - http://php.soywiz.com/
+icon: php.png
 ---
 
 * Amplios conocimientos de programación en PHP para web, consola y aplicaciones cliente.

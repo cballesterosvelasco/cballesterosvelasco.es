@@ -1,0 +1,12 @@
+---
+layout: post
+categories: resume plangs
+tags: kotlin games web emulation romhacking
+datetype: year
+until: now
+title: Kotlin
+proficency: Advanced
+icon: kotlin.png
+---
+
+Ported framework from as3 to kotlin

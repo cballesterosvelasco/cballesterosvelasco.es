@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: resume study
+categories: resume studies
 until: 2006-01-01
 datetype: year
 ---

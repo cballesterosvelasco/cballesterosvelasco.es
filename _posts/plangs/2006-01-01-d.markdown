@@ -1,0 +1,22 @@
+---
+layout: post
+categories: resume plangs
+tags: D games emulation romhacking oss
+datetype: year
+until: 2009-01-01
+title: D
+proficency: Advanced
+icon: d.png
+links:
+- http://foro.tales-tra.com/viewtopic.php?t=109
+- http://www.dprogramming.com/dfl.php
+- http://personales.alumno.upv.es/carbalve/emus/gb/
+- http://pspemu.soywiz.com/
+- http://svn.soywiz.com/d/pcsx2/cdvdfs/
+- http://code.google.com/p/dutils/
+---
+
+Conocimientos medios y soltura programando en D1.0 y D2.0.
+Desarrollado utilidades gráficas como PopGUI en DFL, multitud de utilidades (romhacking, gestión de sistema...), programas de consola.
+Desarrollado emulador de gameboy, emulador de psp. Desarrollado plugin de cdvd para el emulador pcsx2. Librerías para D.
+

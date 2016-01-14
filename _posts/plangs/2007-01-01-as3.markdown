@@ -1,0 +1,22 @@
+---
+layout: post
+categories: resume plangs
+tags: as3 flash games oss Web
+datetype: year
+until: 2015-01-01
+title: ActionScript 3
+proficency: Advanced
+links:
+- http://labs.adobe.com/technologies/alchemy/
+- http://blog.cballesterosvelasco.es/2011/02/poly2tri-y-busqueda-de-caminos.html
+- http://blog.cballesterosvelasco.es/2011/03/pruebecita-de-fuegos-artificiales-en.html
+- https://github.com/soywiz/as3libwebp
+icon: as3.png
+---
+
+Creadas aplicaciones en flash usando ActionScript.
+Creado juego, animaciones y aplicaciones.
+Creadas dos máquinas virtuales en flash y evaluadores de expresiones.
+Usado Alchemy/FlashCC para integrar código C++ en flash.
+Creación de ANEs. Creado lector de imágenes webp multiplataforma con ANEs y FlashCC.
+Trabajado con facebook para crear juegos en our.com.

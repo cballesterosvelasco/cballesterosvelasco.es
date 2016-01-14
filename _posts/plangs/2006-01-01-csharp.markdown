@@ -1,0 +1,19 @@
+---
+layout: post
+categories: resume plangs
+tags: C# games emulation tdd romhacking oss web async
+datetype: year
+until: now
+title: C#
+proficency: Advanced
+icon: csharp.png
+links:
+- http://code.google.com/p/csharputils/
+- http://pspemu.soywiz.com/
+- https://github.com/soywiz/NodeNetAsync
+---
+
+Conocimientos medio de la tecnología .NET y del lenguaje C# para PC, .NET Framework: PocketPC, dispositivos móviles y xbox 360 mediante XNA.
+Creado proyecto opensource de utilidades en C#. CSharpUtils. Creado emulador de PSP en C# con recompilación dinámica sucesor del emulador en D.
+Conocimientos hasta .NET 4.5 incluyendo la arquitectura async + await.
+Desarrollado un prototipo tipo node.js para .net 4.5 (node.net)

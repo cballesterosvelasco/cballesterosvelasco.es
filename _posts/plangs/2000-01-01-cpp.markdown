@@ -1,0 +1,14 @@
+---
+layout: post
+categories: resume plangs
+tags: c/c++ c# games romhacking oss
+datetype: year
+until: 2006-01-01
+title: C/C++
+proficency: Advanced
+icon: cpp.png
+---
+
+Amplios conocimientos de programación en C/C++. Trabajado con IDEs: Dev-Cpp y en especial Microsoft Visual Studio 6, 7, 8 (2005), 9 (2008) hasta 2012.
+Creado diversos proyectos para diversas plataformas. Scripts, programas... Usado con SDL y OpenGL para crear juegos y ports de engines.
+Creado compilador de C en C#

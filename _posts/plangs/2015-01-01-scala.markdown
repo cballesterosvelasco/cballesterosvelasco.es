@@ -1,0 +1,12 @@
+---
+layout: post
+categories: resume plangs
+tags: kotlin games web emulation romhacking
+datetype: year
+until: 2015-01-01
+title: Scala
+proficency: Medium
+icon: scala.png
+---
+
+TODO

@@ -10,6 +10,7 @@ links:
 - http://prototypejs.org/
 - http://nodejs.org/
 - http://jquery.com/
+icon: javascript.png
 ---
 
 * Conocimientos de JavaScript (y lenguajes basados en ECMAScript [ActionScript, TypeScript etc.]) aplicado a la Web.

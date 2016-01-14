@@ -1,0 +1,13 @@
+---
+layout: post
+categories: resume plangs
+tags: dart Web
+datetype: none
+until: 2015-01-01
+title: Dart
+proficency: Basic
+icon: dart.png
+---
+
+Realizadas varias pruebas de servidor con Dart.
+Muy cómodo con la sintaxis y el api.

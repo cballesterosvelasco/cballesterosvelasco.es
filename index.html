@@ -31,16 +31,11 @@ layout: default
                         <span class="post-meta">{{ post.date | date: "%Y" }} -
                         {% assign month = post.date | date: "%m" | round %}
                         {% case month %}
-                        {% when 1 or 2 or 3 %}
-                        Season1
-                        {% when 4 or 5 or 6 %}
-                        Season2
-                        {% when 7 or 8 or 9 %}
-                        Season3
-                        {% when 10 or 11 or 12 %}
-                        Season4
-                        {% else %}
-                        Error
+                            {% when 12 or 1 or 2 %}Winter
+                            {% when 3 or 4 or 5 %}Spring
+                            {% when 6 or 7 or 8 %}Summer
+                            {% when 9 or 10 or 11 %}Autumn
+                            {% else %}Error
                         {% endcase %}
                         </span>
                     {% when "year" %}
