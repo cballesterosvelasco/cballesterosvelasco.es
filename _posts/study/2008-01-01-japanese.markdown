@@ -1,0 +1,10 @@
+---
+layout: post
+categories: resume study
+tags: japanese
+datetype: year
+links:
+- http://www.uv.es/confucio/
+---
+
+Curso de 40 horas de japonés de nivel 1 (organizado por el instituto confucio).

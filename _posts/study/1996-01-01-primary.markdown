@@ -1,0 +1,9 @@
+---
+layout: post
+categories: resume study
+until: 2001-01-01
+datetype: year
+---
+
+Educación primera, secundaria y elemental: Rodriguez Fornos & Escolapias (Valencia).
+

@@ -1,0 +1,21 @@
+---
+layout: post
+categories: resume plangs
+tags: PHP C/C++ Web
+datetype: year
+until: 2012-01-01
+title: PHP
+proficency: Expert
+links:
+- http://www.zend.com/store/education/certification/authenticate.php?ClientCandidateID=ZEND002412&RegistrationID=212545372
+- http://php.soywiz.com/
+---
+
+* Amplios conocimientos de programación en PHP para web, consola y aplicaciones cliente.
+* Conocimientos sobre Zend Engine.
+* Desarrolladas diversas extensiones para PHP.
+* Experiencia dando clases de PHP.
+* Experiencia tanto con PHP 4 como con PHP5.
+* Título de ingeniero certificado Zend.
+* Última versión de php usada: 5.4.
+* Blog phpElegante, técnicas y consejos avanzados de programación en PHP.
