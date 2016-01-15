@@ -2,9 +2,11 @@
 layout: post
 categories: resume oss
 tags: oss git
+datetype: none
 title: Github
 links:
 - https://github.com/soywiz
+icon: github.png
 ---
 
 Github

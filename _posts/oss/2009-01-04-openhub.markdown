@@ -2,10 +2,14 @@
 layout: post
 categories: resume oss
 tags: oss
+datetype: none
 title: OpenHub
 links:
 - https://www.openhub.net/accounts/soywiz
+icon: openhub.png
 ---
+
+OpenHub
 
 <a href="https://www.openhub.net/accounts/71283?ref=Detailed" target="_blank"><img src="https://www.openhub.net/accounts/71283/widgets/account_detailed.gif" /></a>
 

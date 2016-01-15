@@ -1,0 +1,21 @@
+---
+layout: post
+categories: resume projects
+tags: C/C++ C# Compilers GIT TDD AST
+datetype: year
+title: ILCC
+---
+
+Compilador de C hecho en C# para .NET (genera código IL; ejecutables y dlls).
+
+El código generado es completamente portable y se puede ejecutar el binario sin modificaciones en cualquier plataforma soportada por MS.NET o MONO.
+
+Incluye el preprocesador de C y la mayor parte de la sintaxis de C.
+
+Es capaz de compilar muchos programas sencillos aunque algunos programas más complicados todavía no es capaz de compilarlos.
+
+El objetivo del proyecto era compilar ffmpeg en código .NET para poderlo usar en mi emulador de PSP.
+
+Aunque está sin terminar está en un estadio bastante avanzado.
+
+Permite dumpear el AST del código C como XML de forma que otros lenguajes lo pueden convertir a otras cosas o generar documentación.

@@ -1,0 +1,11 @@
+---
+layout: post
+categories: resume dbs
+datetype: year
+until: now
+tags: sqlite
+title: SqLite (SQL)
+proficency: medium
+---
+
+Conocimiento a nivel medio de la base de datos SqLite y de aplicación usando PHP y C#.

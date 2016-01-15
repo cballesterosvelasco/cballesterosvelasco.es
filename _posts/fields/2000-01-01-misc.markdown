@@ -1,0 +1,12 @@
+---
+layout: post
+categories: resume fields
+tags: Algoritmos de compresión Procesado de imágenes Procesado de audio Procesado de video Contenedores Muxing Archivos Binarios 
+title: Misc knowledge
+datetype: none
+proficency: medium
+---
+
+Trabajado con estándares ISO, UDF. Gran capacidad de trabajo con formatos binarios en diversos lenguajes de programación.
+
+Conocimiento y gran práctica sobre/con métodos de compresión (creación de compresores y decompresores): Huffman, LZ, RLE y derivados. Conocimientos de zlib y png. Conocimientos de mejoras de compresión/filtros específicas para imágenes. RLE/LZ por píxeles, separación por componentes. Implementación de decodificador de png; filtros de png: Sub, Up, Average y Paeth. Sistemas de encriptación de protocolo y de archivos para plataforma de juegos online.

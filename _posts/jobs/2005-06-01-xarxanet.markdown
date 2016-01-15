@@ -4,11 +4,12 @@ categories: resume jobs
 tags: PHP Html CSS JavaScript Photoshop Linux XML SVN MySQL Web
 links:
 - http://archivospc.com/
+datetype: season
 dates:
-- 2005/Summer
-- 2006/Summer
-- 2007/Summer
-- 2008-07
+- 2005-06-01
+- 2006-06-01
+- 2007-06-01
+- 2008-06-01
 ---
 
 Trabajando en XARXANET, S.L. Trabajando como programador web para archivospc.

@@ -10,6 +10,9 @@
 - id: talks
   title: Talks and Lectures
 
+- id: projects
+  title: Projects
+
 - id: langs
   title: Languages
 
@@ -24,3 +27,10 @@
 
 - id: dbs
   title: Databases
+
+- id: office
+  title: Office
+
+- id: fields
+  title: Experience in some knowledge fields
+

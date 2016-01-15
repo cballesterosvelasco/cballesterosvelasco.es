@@ -1,0 +1,11 @@
+---
+layout: post
+categories: resume dbs
+datetype: year
+until: 2008-01-01
+tags: sphinx
+title: Sphinx (NoSQL/SQL)
+proficency: elemental
+---
+
+Conocimiento elemental sobre Sphinx para búsquedas en documentos.

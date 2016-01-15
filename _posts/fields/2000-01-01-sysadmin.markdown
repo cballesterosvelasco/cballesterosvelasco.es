@@ -1,0 +1,10 @@
+---
+layout: post
+categories: resume fields
+tags: linux
+title: System Administrator
+datetype: none
+proficency: medium
+---
+
+Conocimiento sobre comandos linux. Conocimientos básicos de bash. Instalación y configuración de apache, php, mysql, sqlite y otros en sistemas linux, compatibles Debian y Fedora Core.

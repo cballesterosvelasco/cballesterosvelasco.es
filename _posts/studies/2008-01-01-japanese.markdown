@@ -5,6 +5,7 @@ tags: japanese
 datetype: year
 links:
 - http://www.uv.es/confucio/
+icon: confucio.png
 ---
 
 Curso de 40 horas de japonés de nivel 1 (organizado por el instituto confucio).

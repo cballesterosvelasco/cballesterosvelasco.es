@@ -1,0 +1,10 @@
+---
+layout: post
+categories: resume fields
+tags: assembly
+title: Assembly writting and understanding
+datetype: none
+proficency: medium
+---
+
+Capacidad de escribir código en ensamblador optimizado, partes críticas y hacer uso de instrucciones avanzadas para diferentes plataformas (MIPS, ARM básico, Z80, PowerPC, 8086+). Conocimiento sobre las tecnologías SIMD (Single Instruction Multiple Data) para aplicaciones multimedia para PC: MMX, SSE, SSE2, 3DNOW (básico), VFPU de Allegrex y NEON de ARM.

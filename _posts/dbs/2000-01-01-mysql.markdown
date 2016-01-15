@@ -1,0 +1,13 @@
+---
+layout: post
+categories: resume dbs
+datetype: year
+until: 2014-01-01
+tags: mysql
+title: MySQL (SQL)
+proficency: advanced
+---
+
+Conocimiento a nivel avanzado de la base de datos MySQL
+y de aplicación usando PHP mediante extensiones mysql, mysqli y PDO.
+Certificación de MySQL.

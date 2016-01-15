@@ -5,6 +5,7 @@ tags: english
 datetype: year
 links:
 - http://www.trainingexpress.es/en/home/
+icon: training_express.jpg
 ---
 
 Curso de 43 horas de inglés pre-intermediate impartido por Training Express SL.

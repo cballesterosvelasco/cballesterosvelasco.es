@@ -1,0 +1,32 @@
+---
+layout: post
+categories: resume fields
+tags: Html CSS PHP MySQL MongoDB SqLite XML Web
+title: Web (HTML+PHP)
+datetype: none
+proficency: advanced
+---
+
+Gran experiencia de programación Web. Uso de estándares HTML5+CSS3, XML, JS y (PHP + MYSQL + MongoDB).
+Algunos temas tratados:
+
+* PDO; PHP >= 5.4
+* Creación de sistemas de caché a varios niveles
+* Creación de imágenes dinámicas usando PHP y GD2. Imagemagick.
+* Uso de MySQL y SQLite como soporte de bases de dato. Usados tanto con su api específica como con PDO.
+* Experiencia con expresiones regulares POSIX y PREG
+* Parseo y creación de XMLs
+* Creación de Spiders y crawlers
+* Creación de sistemas internos potentes y eficientes
+* Creación dinámica de animaciónes flash con la extensión ming
+* Colaboración en proyectos opensource a través de CVS, SVN y GIT.
+* Creación de aplicaciones Web interactivas con JavaScript: creación y manipulación dinámica de elementos, AJAX, JSON...
+* Creación de extensiones en PHP4/5 mediante Zend Engine 2. Creación de wrappers C para PHP
+* Conocimientos sobre el protocolo fast-cgi y creación de aplicaciones en C nativas
+* Experiencia utilizando firebug, wireshark y logs de apache para el desarrollo y depuración web.
+* Configuración y administración del servidor web apache y nginx.
+* Experiencia con algunos mods de apache como mod_rewrite
+* Trabajado con sphinx para búsquedas.
+* Comercio electrónico
+* Implementación de pasarelas de pago SMS e integración con paypal.
+* [...]

@@ -1,0 +1,12 @@
+---
+layout: post
+categories: resume fields
+tags: D C# Html
+title: GUI (Graphical User Interface)
+datetype: none
+proficency: advanced
+---
+
+Creación de aplicaciones gráficas de entorno de usuario. Hechas con VB, C#, DELPHI y D+DFL. Trabajado con componente scintilla (www.scintilla.org/).
+
+

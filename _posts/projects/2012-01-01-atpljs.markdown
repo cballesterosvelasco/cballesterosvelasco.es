@@ -1,0 +1,23 @@
+---
+layout: post
+categories: resume projects
+tags: JavaScript TypeScript Node.JS TDD Compilers Dynamic Recompilation AST
+datetype: year
+title: atpl.js
+---
+
+Advanced TemPLates (Node.JS).
+
+El proyecto este lo empecé en javascript cuando empecé a tocar node.js y quería tener un sistema de templates idéntico o muy similar al Twig de PHP que había estado usando hasta ahora.
+
+Entonces me di cuenta de que habían otros proyectos que ya pretendían lo mismo "swig" o "twig.js".
+
+Tras darles casi un año de oportunidades a ambos proyectos y ver que no habían implementado las partes más potentes de twig o que uno de ellos ni siquiera hacía recompilación dinámica, decidí seguir el proyecto.
+
+Porté el proyecto a typescript, y seguí haciendo TDD y añadiendo testcases interesantes de la parte potente de twig.
+
+Hace uso de prototyping de javascript para implementar ámbitos muy rápidos y permitir una herencia flexible y potente
+
+Tiene recompilación dinámica (convierte el template a código javascript que a su vez el V8 convierte en código nativo).
+
+Ahora mismo ATPL implementa la mayor parte de Twig y está usándose en algún proyecto en producción.

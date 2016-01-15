@@ -1,0 +1,9 @@
+---
+layout: post
+categories: resume fields
+title: Drawing
+datetype: none
+proficency: advanced
+---
+
+En ocasiones, como hobby suelo copiar algunos dibujos y hacer los míos propios.
