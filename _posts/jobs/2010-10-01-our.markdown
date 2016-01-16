@@ -9,6 +9,7 @@ links:
 - http://www.netwizzy.es/
 - https://github.com/soywiz/smrr-server
 icon: our.png
+notitle: true
 ---
 
 * Trabajado como programador en The Netwizzy Company para Our.com.

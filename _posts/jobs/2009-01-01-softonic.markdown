@@ -6,6 +6,7 @@ tags: PHP XML C# D MySQL Sphinx SVN TDD Web Linux
 links:
 - https://softonic.com/
 icon: softonic.png
+notitle: true
 ---
 
 Web developer at [softonic.com](http://softonic.com/).

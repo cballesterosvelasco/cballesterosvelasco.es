@@ -7,6 +7,7 @@ title: Github
 links:
 - https://github.com/soywiz
 icon: github.png
+notitle: true
 ---
 
 Github

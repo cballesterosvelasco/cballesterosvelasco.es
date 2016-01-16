@@ -7,6 +7,7 @@ title: Google Code
 links:
 - http://code.google.com/u/soywiz/
 icon: googlecode.png
+notitle: true
 ---
 
 Google Code

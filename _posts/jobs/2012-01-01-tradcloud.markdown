@@ -5,6 +5,7 @@ tags: Html JavaScript CSS TypeScript Node.JS MongoDB GIT Traducciones Express.JS
 links:
 - https://tradcloud.com/
 icon: tradcloud.png
+notitle: true
 ---
 
 Founder and developer of [tradcloud.com](http://tradcloud.com/).

@@ -7,6 +7,7 @@ title: OpenHub
 links:
 - https://www.openhub.net/accounts/soywiz
 icon: openhub.png
+notitle: true
 ---
 
 OpenHub

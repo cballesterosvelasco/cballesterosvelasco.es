@@ -1,6 +1,7 @@
 ---
 layout: post
 categories: resume jobs
+notitle: true
 tags: Html JavaScript CSS PHP MongoDB GIT Juegos TDD Web XNA HaXe Photoshop Linux OpenGL Opengl Shader Language
 links:
 - http://kawagames.com/

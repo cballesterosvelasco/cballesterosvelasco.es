@@ -16,10 +16,21 @@ layout: default
             border-top:1px solid #007;
             background: linear-gradient(to bottom,  rgba(0,91,119,0.05) 0%,rgba(0,91,119,0.05) 1%,rgba(0,91,119,0) 20%);
         }
+        ul li {
+            margin: 0;
+            margin-left: -16px;
+        }
+        h2.section {
+            text-align: left;
+            color: #333;
+            padding: 16px;
+            margin: 0;
+            margin-top: 64px;
+        }
     </style>
 
   {% for section in site.data.portfoliosections %}
-    <h2 name="{{ section.id }}">{{ section.title }}</h2>
+    <h2 name="{{ section.id }}" class="section">{{ section.title }}</h2>
     {% for post in site.posts %}
       {% if post.categories contains section.id %}
         <div class="row portfolio item">
@@ -65,8 +76,13 @@ layout: default
                 {% if post.icon %}
                 <div><img src="img/icons/{{ post.icon }}" /></div>
                 {% endif %}
-                {% if post.title %}
-                <div>{{ post.title }}</div>
+                {% if post.notitle %}
+                    {% assign post_title = "" %}
+                {% else %}
+                    {% assign post_title = post.title %}
+                {% endif %}
+                {% if post_title %}
+                <div>{{ post_title }}</div>
                 {% endif %}
                 {% if post.proficency %}
                 <div>({{ post.proficency }})</div>

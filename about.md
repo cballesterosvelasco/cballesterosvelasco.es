@@ -4,12 +4,35 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+<p>
+    I can adapt myself when required to work
+    as people work in my job's place.
+</p>
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+<p>
+    On my own projects or whenever I can choose.
+    I usually start creating fast spikes without
+    being too picky about them.
+</p>
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+<p>
+    So I try to provide fast value and feedback for myself and for the product itself
+    without have to take too many decisions.
+</p>
+
+<p>
+    Then I iterate the product transforming that spike into a real product.
+    Or discarding that spike when neccesary but not always.
+</p>
+
+<p>
+    In each iteration I try to improve the product where providing most value,
+    taking into account due dates, milestones and technical debt.
+</p>
+<p>
+    I usually have a pragmatic and realistic point of view.
+</p>
+<p>
+    I love to work with passion, with talent and pushing the limits
+    of what's possible.
+</p>
