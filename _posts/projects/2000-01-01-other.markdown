@@ -1,0 +1,14 @@
+---
+layout: post
+categories: resume projects
+datetype: none
+title: Other
+links:
+- https://github.com/soywiz
+- https://code.google.com/u/soywiz/
+- http://sourceforge.net/u/soywiz/profile/
+- http://www.youtube.com/user/cballesterosvelasco
+- https://www.openhub.net/accounts/soywiz
+---
+
+A lo largo de mi vida he creado y participado en decenas de proyectos opensource. Puedes ver la mayor parte de ellos en github, google code y sourceforge.

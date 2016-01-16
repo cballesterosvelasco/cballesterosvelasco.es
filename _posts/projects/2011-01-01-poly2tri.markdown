@@ -1,0 +1,17 @@
+---
+layout: post
+categories: resume projects
+tags: ActionScript3 Algorithmics
+datetype: year
+title: poly2tri (as3)
+links:
+- https://code.google.com/p/poly2tri/source/browse/?repo=as3
+- http://soywiz.github.io/mine/swf/VisualTest.swf
+---
+
+Colaboré en el proyecto poly2tri porteando el código a ActionScript3.
+
+Hice una pequeña demo combinando la triangulación de la librería porteada, con una búsqueda de caminos triangulated-a-star y el algoritmo del embudo que implementé para la demo, para encontrar el camino directo más corto entre dos puntos en el mesh de triángulos generado.
+
+Ver demo
+

@@ -23,28 +23,44 @@ layout: default
     {% for post in site.posts %}
       {% if post.categories contains section.id %}
         <div class="row portfolio item">
-            <div class="col-xs-12 col-md-4">
+            <div class="col-xs-12 col-md-4" style="text-align:center;">
                 <div>
+                {% if post.from %}
+                    {% assign datefrom = post.from %}
+                    {% assign dateuntil = post.date %}
+                {% else %}
+                    {% assign datefrom = post.date %}
+                    {% assign dateuntil = post.until %}
+                {% endif %}
                 {% case post.datetype %}
                     {% when "none" %}
+                    {% assign date_from_text = "" %}
+                    {% assign date_until_text = "" %}
                     {% when "season" %}
-                        <span class="post-meta">{{ post.date | date: "%Y" }} -
-                        {% assign month = post.date | date: "%m" | round %}
+                        {% assign month = datefrom | date: "%m" | round %}
+                        {% capture date_from_text %}
+                        {{ datefrom | date: "%Y" }}
                         {% case month %}
-                            {% when 12 or 1 or 2 %}Winter
-                            {% when 3 or 4 or 5 %}Spring
-                            {% when 6 or 7 or 8 %}Summer
-                            {% when 9 or 10 or 11 %}Autumn
+                            {% when 12 or  1 or  2 %}Winter
+                            {% when  3 or  4 or  5 %}Spring
+                            {% when  6 or  7 or  8 %}Summer
+                            {% when  9 or 10 or 11 %}Autumn
                             {% else %}Error
                         {% endcase %}
-                        </span>
+                        {% endcapture %}
                     {% when "year" %}
-                    <span class="post-meta">{{ post.date | date: "%Y" }}</span> -
-                    <span class="post-meta">{{ post.until | date: "%Y" }}</span>
+                    {% assign date_from_text = datefrom | date: "%Y" %}
+                    {% assign date_until_text = dateuntil | date: "%Y" %}
                     {% else %}
-                    <span class="post-meta">{{ post.date | date: "%b %Y" }}</span> -
-                    <span class="post-meta">{{ post.until | date: "%b %Y" }}</span>
+                    {% assign date_from_text = datefrom | date: "%b %Y" %}
+                    {% assign date_until_text = dateuntil | date: "%b %Y" %}
                 {% endcase %}
+                    {% if date_from_text %}
+                        <span class="post-meta">{{ date_from_text }}</span>
+                        {% if dateuntil %}
+                        - <span class="post-meta">{{ date_until_text }}</span>
+                        {% endif %}
+                    {% endif %}
                 </div>
                 {% if post.icon %}
                 <div><img src="img/icons/{{ post.icon }}" /></div>
