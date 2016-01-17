@@ -1,0 +1,6 @@
+as3:
+  - type: plangs
+    name: ActionScript3
+c/cpp:
+  - type: plamgs
+    name: C/C++

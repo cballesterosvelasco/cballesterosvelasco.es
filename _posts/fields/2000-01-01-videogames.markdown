@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: resume fields
-tags: Ensamblador C/C++ PHP DivGameStudio C# Java JavaScript Html ActionScript3 Opengl Shader Language XNA Squirrel OpenGL GIT SVN Juegos Algoritmia Flash Photoshop OpenSource
+tags: Ensamblador C/C++ PHP DivGameStudio C# Java JavaScript Html as3 Opengl Shader Language XNA Squirrel OpenGL GIT SVN Juegos Algoritmia Flash Photoshop OpenSource
 title: Videogames
 datetype: none
 proficency: advanced

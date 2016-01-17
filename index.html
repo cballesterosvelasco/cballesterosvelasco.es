@@ -29,6 +29,18 @@ layout: default
         }
     </style>
 
+    {% for tag in site.data.portfoliotags %}
+        {% assign count = 0 %}
+        {% capture dummy %}
+            {% for post in site.posts %}
+                {% if post.tags contains tag[0] %}
+                    {% assign count = count|plus:1 %}
+                {% endif %}
+            {% endfor %}
+        {% endcapture %}
+        <span class="label label-default">{{ tag[0] }} ({{ count }})</span>
+    {% endfor %}
+
   {% for section in site.data.portfoliosections %}
     <h2 name="{{ section.id }}" class="section">{{ section.title }}</h2>
     {% for post in site.posts %}
@@ -91,7 +103,8 @@ layout: default
             <div class="col-xs-12 col-md-8">
                 {{ post.content }}
                 {% for tag in post.tags %}
-                <span class="label label-default">{{ tag }}</span>
+                    {% assign taginfo = site.data.portfoliotags[tag][0] %}
+                    <span class="label label-default">{{ taginfo.name|default:tag }}</span>
                 {% endfor %}
             </div>
         </div>
@@ -100,6 +113,6 @@ layout: default
   {% endfor %} 
 
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <p class="rss-subscribe">subscribe <a href='{{ "/feed.xml" | prepend: site.baseurl }}'>via RSS</a></p>
 
 </div>
