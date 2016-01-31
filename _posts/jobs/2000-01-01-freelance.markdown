@@ -6,3 +6,4 @@ until: 2008-01-01
 ---
 
 Worked as freelance for business and individuals.
+Worked at Valencia.

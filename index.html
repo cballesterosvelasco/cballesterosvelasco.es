@@ -162,6 +162,8 @@ layout: default
             //alert(1);
             var items = [];
 
+            RegExp.escape = function(s) { return s.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&'); };
+
             $('.portfolio.item').each(function(i, e) {
                 var div = e;
                 var section = $(e).parent('.section-container');
@@ -208,7 +210,7 @@ layout: default
 
             $('#search').keyup(function(e) {
                 var value = $('#search').val();
-                var reg = new RegExp(value);
+                var reg = new RegExp(RegExp.escape(value));
                 displayFilteredEntries(function(e) { return e.text.match(reg) != null; });
             });
         });

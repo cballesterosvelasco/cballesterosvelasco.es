@@ -8,4 +8,4 @@ links:
 - http://tradcloud.com/
 ---
 
-Freelance programmer
+Freelance programmer. Worked at Valencia and Cordoba.

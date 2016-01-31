@@ -249,6 +249,9 @@ emulation:
 async:
   - type: frameworks
     name: Await/Async
+promises:
+  - type: frameworks
+    name: Promises
 jekyll:
   - type: frameworks
     name: Jekyll

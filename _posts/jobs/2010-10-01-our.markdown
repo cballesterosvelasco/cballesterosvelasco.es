@@ -18,3 +18,5 @@ notitle: true
 * Creating a protocol encryption system and incremental compression for smartfoxserver using java.
 * Created deployer using C#.
 * Created a realtime massive ranking server.
+
+Worked at Valencia.

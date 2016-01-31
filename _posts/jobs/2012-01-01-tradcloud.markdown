@@ -9,3 +9,4 @@ notitle: true
 ---
 
 Founder and developer of [tradcloud.com](http://tradcloud.com/).
+Worked at Valencia.

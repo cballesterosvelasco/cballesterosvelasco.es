@@ -11,3 +11,4 @@ notitle: true
 
 Web developer at [softonic.com](http://softonic.com/).
 
+Worked at Barcelona.

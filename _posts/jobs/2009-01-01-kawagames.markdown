@@ -9,3 +9,5 @@ icon: kawagames.png
 ---
 
 Co-founder, programmer, site layout and sysadmin of [kawagames.com](http://kawagames.com).
+
+Worked at Valencia.
