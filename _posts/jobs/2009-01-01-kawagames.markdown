@@ -6,8 +6,7 @@ tags: html js css php mongodb git games tdd web xna haxe photoshop linux glsl
 links:
 - http://kawagames.com/
 icon: kawagames.png
+map: Valencia
 ---
 
 Co-founder, programmer, site layout and sysadmin of [kawagames.com](http://kawagames.com).
-
-Worked at Valencia.

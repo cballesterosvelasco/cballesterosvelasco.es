@@ -6,6 +6,7 @@ links:
 - http://www.freelancer.com/u/soywiz.html
 - http://kawagames.com/
 - http://tradcloud.com/
+map: Valencia
 ---
 
-Freelance programmer. Worked at Valencia and Cordoba.
+Freelance programmer.

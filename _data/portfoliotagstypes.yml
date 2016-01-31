@@ -1,0 +1,35 @@
+- id: programming-language
+  title: Programming Languages
+  pos: 0
+
+- id: tools
+  title: Tools
+  pos: 0
+
+- id: database
+  title: Databases
+  pos: 0
+
+- id: version_control
+  title: Version Control
+  pos: 1
+
+- id: field
+  title: Fields
+  pos: 1
+
+- id: programs
+  title: Programs
+  pos: 1
+
+- id: frameworks
+  title: Frameworks
+  pos: 2
+
+- id: methodology
+  title: Methodologies
+  pos: 2
+
+- id: language
+  title: Languages
+  pos: 2

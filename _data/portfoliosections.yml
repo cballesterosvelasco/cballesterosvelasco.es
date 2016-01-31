@@ -1,36 +1,48 @@
 - id: jobs
   title: Jobs
+  icon: fa fa-users
 
 - id: certs
   title: Certifications
+  icon: fa fa-star
 
 - id: awards
   title: Achievements, awards, contests and olympiads
+  icon: fa fa-trophy
 
 - id: talks
   title: Talks and Lectures
+  icon: fa fa-comment
 
 - id: projects
   title: Projects
+  icon: fa fa-archive
 
 - id: langs
   title: Languages
+  icon: fa fa-globe
 
 - id: oss
   title: Open Source Software
+  icon: fa fa-code-fork
 
 - id: studies
   title: Academic
+  icon: fa fa-graduation-cap
 
 - id: plangs
   title: Programming Languages
+  icon: fa fa-code
 
 - id: dbs
   title: Databases
+  icon: fa fa-database
 
 - id: office
   title: Office
+  icon: fa fa-file-word-o
 
 - id: fields
   title: Experience in some knowledge fields
+  icon: fa fa-random
 

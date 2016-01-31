@@ -6,7 +6,7 @@ links:
 - https://tradcloud.com/
 icon: tradcloud.png
 notitle: true
+map: Valencia
 ---
 
 Founder and developer of [tradcloud.com](http://tradcloud.com/).
-Worked at Valencia.

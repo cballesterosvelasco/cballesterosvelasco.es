@@ -47,3 +47,56 @@ $on-laptop:        800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "base";
+
+body {
+    cursor: default;
+}
+div.portfolio.item {
+    border-top:1px solid #777;
+    border-radius: 8px;
+    margin-top: 18px;
+    padding: 12px;
+    background: linear-gradient(to bottom,  rgba(0,0,0,0.05) 0%,rgba(0,0,0,0) 20%);
+}
+div.portfolio.item:hover {
+    border-top:1px solid #007;
+    background: linear-gradient(to bottom,  rgba(0,91,119,0.05) 0%,rgba(0,91,119,0.05) 1%,rgba(0,91,119,0) 20%);
+}
+#portfolio-entries ul li {
+    margin: 0;
+    margin-left: -16px;
+}
+h2.section {
+    text-align: left;
+    color: #333;
+    padding: 16px;
+    margin: 0;
+    /*margin-top: 64px;*/
+}
+
+.label2 {
+    background: #eee;
+    border-radius: 3px;
+    padding: 3px 5px;
+    font-weight: bold;
+    color: #888;
+    margin: 0 4px 4px 0;
+    font-size: 10.0px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-shadow: 0 -1px 0 rgba(255, 255, 255, 0.25);
+    box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.10);
+}
+.label2 { cursor: pointer; }
+.label2:hover { color: black; }
+.label2.filterResults { background: #f70; color: #fff; }
+
+.label-programming-language { background: #eeeeee; color: #888888; }
+.label-database             { background: #ffeeee; color: #aa8888; }
+.label-frameworks           { background: #f4d3ff; color: #8800b5; }
+.label-programs             { background: #ffd7b4; color: #c45c00; }
+.label-version_control      { background: #eeffee; color: #88aa88; }
+.label-tools                { background: #fadca6; color: #aa9671; }
+.label-language             { background: #eeeeff; color: #8888aa; }
+.label-methodology          { background: #ffeeff; color: #aa88aa; }
+.label-field                { background: #eeffff; color: #88aaaa; }
+.label-unknown              { background: red    ; color: #aa9671; }

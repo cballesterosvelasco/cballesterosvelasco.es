@@ -2,83 +2,115 @@
 layout: default
 ---
 
-<div class="home">
+<header class="site-header">
 
-    <style type="text/css">
-        body {
-            cursor: default;
-        }
-        div.portfolio.item {
-            border-top:1px solid #777;
-            border-radius: 8px;
-            margin-top: 18px;
-            padding: 12px;
-            background: linear-gradient(to bottom,  rgba(0,0,0,0.05) 0%,rgba(0,0,0,0) 20%);
-        }
-        div.portfolio.item:hover {
-            border-top:1px solid #007;
-            background: linear-gradient(to bottom,  rgba(0,91,119,0.05) 0%,rgba(0,91,119,0.05) 1%,rgba(0,91,119,0) 20%);
-        }
-        #portfolio-entries ul li {
-            margin: 0;
-            margin-left: -16px;
-        }
-        h2.section {
-            text-align: left;
-            color: #333;
-            padding: 16px;
-            margin: 0;
-            /*margin-top: 64px;*/
-        }
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
 
-        .label2 {
-            background: #eee;
-            border-radius: 3px;
-            padding: 3px 5px;
-            font-weight: bold;
-            color: #888;
-            margin: 0 4px 4px 0;
-            font-size: 10.0px;
-            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-            text-shadow: 0 -1px 0 rgba(255, 255, 255, 0.25);
-            box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.10);
-        }
-        .label2 { cursor: pointer; }
-        .label2:hover { color: black; }
-        .label2.filterResults { background: #f70; color: #fff; }
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="http://blog.cballesterosvelasco.es/" target="_blank">Blog</a></li>
 
-        .label-programming-language { background: #eeeeee; color: #888888; }
-        .label-database             { background: #ffeeee; color: #aa8888; }
-        .label-frameworks           { background: #f4d3ff; color: #8800b5; }
-        .label-programs             { background: #ffd7b4; color: #c45c00; }
-        .label-version_control      { background: #eeffee; color: #88aa88; }
-        .label-tools                { background: #fadca6; color: #aa9671; }
-        .label-language             { background: #eeeeff; color: #8888aa; }
-        .label-methodology          { background: #ffeeff; color: #aa88aa; }
-        .label-field                { background: #eeffff; color: #88aaaa; }
-        .label-unknown              { background: red    ; color: #aa9671; }
-    </style>
-
-    <div class="hide-on-filtering">
-    {% for itag in site.data.portfoliotags %}
-        {% assign count = 0 %}
-        {% capture dummy %}
-            {% for post in site.posts %}
-                {% if post.tags contains itag[0] %}
-                    {% assign count = count|plus:1 %}
+        {% for idx in (0..2) %}
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tags <span class="caret"></span></a>
+            <ul class="dropdown-menu" style="min-width:400px;padding:8px;overflow:auto;">
+            {% for type_info in site.data.portfoliotagstypes %}
+                {% if type_info.pos == idx %}
+                    <li class="dropdown-header">{{ type_info.title }}</li>
+                
+                <li>
+                {% for itag in site.data.portfoliotags %}
+                    {% assign tag2 = itag[0] %}
+                    {% assign tag_info = site.data.portfoliotags[tag2][0] %}
+                    {% if type_info.id == tag_info.type %}
+                        {% include tag.html tag=tag2 %}
+                    {% endif %}
+                {% endfor %}
+                </li>
+                <li role="separator" class="divider"></li>
                 {% endif %}
             {% endfor %}
-        {% endcapture %}
-        {% assign tag2 = itag[0] %}
-        {% include tag.html tag=tag2 count=count %}
-    {% endfor %}
+            </ul>
+        </li>
+        {% endfor %}
+
+
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+        <label for="search-input" style="position:relative;left:28px;"><i class="fa fa-search"></i></label>
+        <input type="search" id="search" name="search" class="form-control" placeholder="Search" autofocus style="padding-left:32px;border-radius:32px;" /><span id="search_results"></span>
+        </div>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-question-circle"></i> Contact <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="mailto:soywiz@gmail.com" target="_blank"><i class="fa fa-envelope"></i> cballesterosvelasco@gmail.com</a></li>
+            <li><a href="http://es.linkedin.com/in/cballesterosvelasco" target="_blank"><i class="fa fa-linkedin-square"></i> Linkedin</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="https://github.com/soywiz/" target="_blank"><i class="fa fa-github"></i> Github</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="http://www.youtube.com/user/cballesterosvelasco" target="_blank"><i class="fa fa-youtube-play"></i> Youtube</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="http://twitter.com/cballesterosvel" target="_blank"><i class="fa fa-twitter"></i> Twitter</a></li>
+            <li><a href="https://www.facebook.com/cballesteros777" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a></li>
+            <li><a href="https://plus.google.com/100263353369850005475/about" target="_blank"><i class="fa fa-google-plus"></i> Google+</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div style="padding-top:64px;"></div>
+
+  <div class="wrapper">
+
+  <div class="hide-on-filtering">
+    <h1>Carlos Ballesteros Velasco</h1>
+
+    <h2 style="color:red;">I'm updating my portfolio: <a href="http://old.cballesterosvelasco.es/">old version</a></h2>
+
+    <div style="clear:both;">
+      <img src="img/face.jpg" style="width:217px;height:240px;border:2px solid black;box-shadow: rgba(0, 0, 0, 0.2) 3px 3px 6px;margin:0 8px;float:left;" />
+
+      <p>I'm a developer born in Valencia (Spain), 29 years old.</p>
+
+      <p>I have lived most of my life here at Valencia, I was a year in Barcelona and a few months in Granada. Right now I'm living at Valencia.</p>
+
+      <p>
+        Since I was pretty young I was very passionated about programming and videogames,
+        I started specializing myself in web development including front and back (and I have been working since I was 14)
+        I have lots of experience in other fields.
+      </p>
     </div>
-    {% assign count = "" %}
+    <div style="clear:both;"></div>
+
+</div>
+  </div>
+
+</header>
+
+<div class="home">
 
 <div id="portfolio-entries">
   {% for section in site.data.portfoliosections %}
     <div class="section-container" data-sectionid="{{ section.id }}" data-sectionname="{{ section.title }}">
-    <h2 name="{{ section.id }}" class="section">{{ section.title }}</h2>
+    <h2 name="{{ section.id }}" class="section"><i class="{{ section.icon }}"></i> {{ section.title }}</h2>
     {% for post in site.posts %}
       {% if post.categories contains section.id %}
         <div class="row portfolio item">
@@ -134,6 +166,9 @@ layout: default
                 {% endif %}
                 {% if post.proficency %}
                 <div>({{ post.proficency }})</div>
+                {% endif %}
+                {% if post.map %}
+                <div><a href="https://www.google.es/maps/place/{{ post.map }}" target="_blank"><i class="fa fa-map-marker"></i> {{ post.map }}</a></div>
                 {% endif %}
             </div>
             <div class="col-xs-12 col-md-8">
@@ -221,7 +256,7 @@ layout: default
             $('#search').keyup(function(e) {
                 clearTimeout(searchTimeout);
                 searchTimeout = setTimeout(function() {
-                    var value = $('#search').val();
+                    var value = $('#search').val().toLowerCase();
                     var reg = new RegExp(RegExp.escape(value));
                     displayFilteredEntries(function(e) { return e.text.match(reg) != null; });
                 }, 100);

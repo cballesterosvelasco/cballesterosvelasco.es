@@ -7,8 +7,7 @@ links:
 - https://softonic.com/
 icon: softonic.png
 notitle: true
+map: Barcelona
 ---
 
 Web developer at [softonic.com](http://softonic.com/).
-
-Worked at Barcelona.

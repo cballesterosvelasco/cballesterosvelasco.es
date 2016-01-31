@@ -6,7 +6,7 @@ tags: git svn tdd web as3 java games promises
 link: http://mundijuegos.com/
 icon: akamon.png
 notitle: true
+map: Valencia
 ---
 
 Senior SDK programmer at [akamon.com](http://akamon.com/) / [mundijuegos.com](http://mundijuegos.com/).
-Worked at Valencia.

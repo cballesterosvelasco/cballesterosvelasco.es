@@ -10,8 +10,7 @@ dates:
 - 2006-06-01
 - 2007-06-01
 - 2008-06-01
+map: Valencia
 ---
 
 Worked for  XARXANET, S.L. Worked as web programmer (frontend and backend) for [archivospc](http://archivospc.com/).
-
-Worked at Valencia.
