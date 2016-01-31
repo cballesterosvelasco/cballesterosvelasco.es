@@ -38,7 +38,7 @@ layout: default
             <ul class="dropdown-menu" style="min-width:400px;padding:8px;overflow:auto;">
             {% for type_info in site.data.portfoliotagstypes %}
                 {% if type_info.pos == idx %}
-                    <li class="dropdown-header">{{ type_info.title }}</li>
+                    <li class="dropdown-header"><i class="{{ type_info.icon }}"></i> {{ type_info.title }}</li>
                 
                 <li>
                 {% for itag in site.data.portfoliotags %}
@@ -250,6 +250,10 @@ layout: default
   {% endfor %} 
 </div>
 
+<div style="position:fixed;right:16px;top:64px;display:none;" class="show-on-filtering">
+<span style="font-size:1.2em;" class="label2 label-hide" id="remove_filtering"><i class="glyphicon glyphicon-remove-circle"></i> Remove filtering</span>
+</div>
+
   <p class="rss-subscribe">subscribe <a href='{{ "/feed.xml" | prepend: site.baseurl }}'>via RSS</a></p>
 
   This page has made using.
@@ -307,15 +311,19 @@ layout: default
                 visibleItems.forEach(function(e) { $(e.div).show('fast'); });
                 invisibleItems.forEach(function(e) { $(e.div).hide('fast'); });
 
+                $("html, body").animate({ scrollTop: 0 }, "fast");
 
                 //$(search_results).text('Results: ' + visibleItems.length + ", hiding: " + invisibleItems.length);
                 $(search_results).text('Results: ' + visibleItems.length);
 
                 if (invisibleItems.length == 0) {
                     $(".hide-on-filtering").show('fast');
+                    $(".show-on-filtering").hide('fast');
                 } else {
                     $(".hide-on-filtering").hide('fast');
+                    $(".show-on-filtering").show('fast');
                 }
+                $('#search').focus();
             }
 
             var searchTimeout = -1;
@@ -333,7 +341,13 @@ layout: default
                 displayFilteredEntries(function(e) {
                     return e.labels.indexOf(label) >= 0;
                 });
-              $("html, body").animate({ scrollTop: 0 }, "fast");
+            });
+
+            $('#remove_filtering').click(function(e) {
+                $('#search').val('');
+                displayFilteredEntries(function(e) {
+                    return true;
+                });
             });
         });
     </script>
