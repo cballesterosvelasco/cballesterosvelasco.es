@@ -15,18 +15,26 @@ layout: default
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="#">
-          <img src="/img/logo.svg" style="width:32px;height:32px;drop-shadow:2px 2px 2px white;" />
+          <img src="/img/logo.svg" style="width:32px;height:32px;drop-shadow:2px 2px 2px white;margin-top:-7px;" />
       </a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="http://blog.cballesterosvelasco.es/" target="_blank">Blog</a></li>
+        <li><a href="http://blog.cballesterosvelasco.es/" target="_blank"><i class="fa fa-wordpress"></i>
+ Blog</a></li>
 
         {% for idx in (0..2) %}
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tags <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            <i class="fa fa-tags"></i> {% case idx %}
+                {% when 0 %}Tags
+                {% when 1 %}More tags
+                {% when 2 %}Even more tags
+            {% endcase %}
+            
+           <span class="caret"></span></a>
             <ul class="dropdown-menu" style="min-width:400px;padding:8px;overflow:auto;">
             {% for type_info in site.data.portfoliotagstypes %}
                 {% if type_info.pos == idx %}
@@ -57,7 +65,7 @@ layout: default
         </div>
       </form>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
+        <li><a href="http://old.cballesterosvelasco.es/" target="_blank">Old portfolio</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-question-circle"></i> Contact <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -85,22 +93,78 @@ layout: default
   <div class="hide-on-filtering">
     <h1>Carlos Ballesteros Velasco</h1>
 
-    <h2 style="color:red;">I'm updating my portfolio: <a href="http://old.cballesterosvelasco.es/">old version</a></h2>
 
-    <div style="clear:both;">
-      <img src="img/face.jpg" style="width:217px;height:240px;border:2px solid black;box-shadow: rgba(0, 0, 0, 0.2) 3px 3px 6px;margin:0 8px;float:left;" />
 
-      <p>I'm a developer born in Valencia (Spain), 29 years old.</p>
+<div>
 
-      <p>I have lived most of my life here at Valencia, I was a year in Barcelona and a few months in Granada. Right now I'm living at Valencia.</p>
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist" style="margin-left:0;">
+    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab"><i class="fa fa-male"></i> About me</a></li>
+    <li role="presentation"><a href="#manifesto" aria-controls="manifesto" role="tab" data-toggle="tab"><i class="glyphicon glyphicon-paperclip"></i> Manifesto</a></li>
+  </ul>
 
-      <p>
-        Since I was pretty young I was very passionated about programming and videogames,
-        I started specializing myself in web development including front and back (and I have been working since I was 14)
-        I have lots of experience in other fields.
-      </p>
+  <!-- Tab panes -->
+  <div class="tab-content" style="padding:22px 0 0 0;">
+    <div role="tabpanel" class="tab-pane active" id="home">
+        <div class="row">
+            <div class="col-xs-12 col-md-5">
+                <img src="img/face.jpg" style="width:217px;height:240px;border:2px solid black;box-shadow: rgba(0, 0, 0, 0.2) 3px 3px 6px;" />
+            </div>
+            <div class="col-xs-12 col-md-7">
+                <p><a href="mailto:soywiz@gmail.com" style="color:green;font-weight:bold;font-size:2em;">Now available for hiring!</a></p>
+
+                <p>I'm a developer born in Valencia (Spain), 29 years old.</p>
+
+                <p>I have lived most of my life here at Valencia, I was a year in Barcelona and a few months in Granada. Right now I'm living at Valencia.</p>
+
+                <p>
+                Since I was pretty young I was very passionated about programming and videogames,
+                I started specializing myself in web development including front and back (and I have been working since I was 14)
+                I have lots of experience in other fields.
+                </p>
+            </div>
+        </div>
+
     </div>
-    <div style="clear:both;"></div>
+    <div role="tabpanel" class="tab-pane" id="manifesto">
+        <p>
+            I can adapt myself when required to work
+            as people work in my job's place.
+        </p>
+
+        <p>
+            On my own projects or whenever I can choose.
+            I usually start creating fast spikes without
+            being too picky about them.
+        </p>
+
+        <p>
+            So I try to provide value and feedback for myself and for the product itself
+            as fast as possible without have to take too many decisions.
+        </p>
+
+        <p>
+            Then I iterate the product transforming that spike into a real product.
+            Or discarding that spike when neccesary but not always.
+        </p>
+
+        <p>
+            In each iteration I try to improve the product where providing most value,
+            taking into account due dates, milestones and technical debt.
+        </p>
+        <p>
+            I usually have a pragmatic and realistic point of view.
+        </p>
+        <p>
+            I love to work with passion, with talent and pushing the limits
+            of what's possible.
+        </p>        
+    </div>
+  </div>
+
+</div>
+
+
 
 </div>
   </div>
@@ -269,6 +333,7 @@ layout: default
                 displayFilteredEntries(function(e) {
                     return e.labels.indexOf(label) >= 0;
                 });
+              $("html, body").animate({ scrollTop: 0 }, "fast");
             });
         });
     </script>

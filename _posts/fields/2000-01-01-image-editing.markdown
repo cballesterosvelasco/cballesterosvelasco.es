@@ -2,7 +2,7 @@
 layout: post
 categories: resume fields
 tags: photoshop flash freehand illustrator drawing glsl js
-title: Creation and imaging editing
+title: Creation and image editing
 datetype: none
 proficency: advanced
 ---
