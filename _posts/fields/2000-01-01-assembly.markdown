@@ -7,4 +7,5 @@ datetype: none
 proficency: medium
 ---
 
-Capacidad de escribir código en ensamblador optimizado, partes críticas y hacer uso de instrucciones avanzadas para diferentes plataformas (MIPS, ARM básico, Z80, PowerPC, 8086+). Conocimiento sobre las tecnologías SIMD (Single Instruction Multiple Data) para aplicaciones multimedia para PC: MMX, SSE, SSE2, 3DNOW (básico), VFPU de Allegrex y NEON de ARM.
+Ability to write optimized assembler code for critical parts using several advanced instruction sets
+(MIPS, ARM, Z80, PowerPC, 8086`). Knowledge about SIMD (Single Instruction Multiple Data) instruction sets for multimedia applications for PC: MMX, SSE, SSE2, 3DNOW (basic), VFPU for PSP's Allegrex, and ARM's NEON.

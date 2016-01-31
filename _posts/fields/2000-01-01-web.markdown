@@ -7,26 +7,25 @@ datetype: none
 proficency: advanced
 ---
 
-Gran experiencia de programación Web. Uso de estándares HTML5+CSS3, XML, JS y (PHP + MYSQL + MongoDB).
-Algunos temas tratados:
+Great experience in web programming .Using standards HTML5+CSS3, XML, JS and (PHP + MySQL + MongoDB).
+Some fields treated:
 
 * PDO; PHP >= 5.4
-* Creación de sistemas de caché a varios niveles
-* Creación de imágenes dinámicas usando PHP y GD2. Imagemagick.
-* Uso de MySQL y SQLite como soporte de bases de dato. Usados tanto con su api específica como con PDO.
-* Experiencia con expresiones regulares POSIX y PREG
-* Parseo y creación de XMLs
-* Creación de Spiders y crawlers
-* Creación de sistemas internos potentes y eficientes
-* Creación dinámica de animaciónes flash con la extensión ming
-* Colaboración en proyectos opensource a través de CVS, SVN y GIT.
-* Creación de aplicaciones Web interactivas con JavaScript: creación y manipulación dinámica de elementos, AJAX, JSON...
-* Creación de extensiones en PHP4/5 mediante Zend Engine 2. Creación de wrappers C para PHP
-* Conocimientos sobre el protocolo fast-cgi y creación de aplicaciones en C nativas
-* Experiencia utilizando firebug, wireshark y logs de apache para el desarrollo y depuración web.
-* Configuración y administración del servidor web apache y nginx.
-* Experiencia con algunos mods de apache como mod_rewrite
-* Trabajado con sphinx para búsquedas.
-* Comercio electrónico
-* Implementación de pasarelas de pago SMS e integración con paypal.
-* [...]
+* Multi-layered cache system.
+* Image creation and manipulation using PHP-GD2 and Imagemagick.
+* Using MySQL and SQLite as db engines. Used their specific API as well as PDO unified API.
+* Experience using regular expressions POSIX and PREG.
+* XML parsing and creation using streaming apis and dom apis.
+* Created spider and crawlers.
+* Created powerful, small and fast framework.
+* Created flash animations dinamically using ming extension.
+* Opensource collaboration using CVS, SVN and GIT.
+* Created interactive web apps using JavaScript.
+* Created PHP4/5 extensions using Zend Engine 2. Created C wrappers for PHP.
+* Knowledge about fast-cgi protocol and creating native C apps.
+* Experience using intellij, firebug, wireshark and apache logs to develop and debug web apps.
+* Configuration and administration of apache and nginx web servers.
+* Experience with some of the apache and nginx mods as mod_rewrite.
+* Worked with sphinx for searchs.
+* Experience with e-commerce and social networks, including sms payments, paypal, facebook, google, amazon...
+* In later years I have strongly used node.js and typescript

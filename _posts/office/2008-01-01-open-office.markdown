@@ -7,4 +7,4 @@ datetype: year
 proficency: basic
 ---
 
-Conocimiento a nivel de usuario.
+I have used both Open Office and Libre Office.

@@ -9,5 +9,5 @@ proficency: Advanced
 icon: html5.png
 ---
 
-Conocimientos de HTML 5 y CSS 3 trabajando conjuntamente con JavaScript Ecmascript/2015.
-Maquetación de decenas de webs desde 2001. Tanto personales, como profesionales para personas y empresas.
+Knowledge about HTML 5 and CSS 3, worked in conjuntion with JavaScript Ecmascript/2015.
+Created website layouts of dozens of webs since 2001. Personal websites as well as professional for other people and business.

@@ -7,6 +7,6 @@ datetype: none
 proficency: advanced
 ---
 
-Experiencia creando aplicaciones cliente/servidor.
-Bots, clientes y servidores para diversos protocolos.
-Experiencia en diversos lenguajes de programación: C#, PHP, C/C++ y D.
+Experience creating client/server applications.
+Bots, clients and servers for several protocols, including mmorpg emulators.
+Experience in several programming languages: C#, PHP, C/C++ and D.

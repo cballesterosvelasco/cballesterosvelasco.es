@@ -8,4 +8,4 @@ title: Sphinx (NoSQL/SQL)
 proficency: elemental
 ---
 
-Conocimiento elemental sobre Sphinx para búsquedas en documentos.
+Basic knowledge Sphinx for document search.

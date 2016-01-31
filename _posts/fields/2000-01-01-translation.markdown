@@ -7,6 +7,6 @@ datetype: none
 proficency: medium
 ---
 
-Experiencia de traducción de videojuegos (inglés->español) extraoficialmente. Experiencia utilizando diccionarios online. Urbandictionary, babylon y rikaichan...
+Experience with videogame translation (english -> spanish) unofficially. Experience using inline dictionaries. Google translate, RAE, urbandictionary, babylon and rikaichan.
 
-Completadas varias traducciones no oficiales.
+Completed several unofficial translations.

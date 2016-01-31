@@ -3,7 +3,7 @@ layout: post
 categories: resume certs
 tags: php english
 links:
-- http://zend.com/zce.php?c=ZEND002412&r=212545372
+- http://www.zend.com/en/yellow-pages/ZEND002412
 ---
 
-Ingeniero certificado Zend (De los 1,000 primeros).
+Zend certified engineer (one of the first 1,000).

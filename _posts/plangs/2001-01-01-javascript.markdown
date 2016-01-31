@@ -13,7 +13,7 @@ links:
 icon: javascript.png
 ---
 
-* Conocimientos de JavaScript (y lenguajes basados en ECMAScript [ActionScript, TypeScript etc.]) aplicado a la Web.
-* Trabajado con el api prototype (en un par de ocasiones) y jQuery generalmente.
-* Creadas aplicaciones de servidor con node.js.
-* Librerías de NodeJS utilizadas: express, consolidate, twig/swig, underscore, mongodb, mocha, should y socket.io.
+* Knowledge about JavaScript (and other languages based on ECMAScript like AS3, TypeScript and so on) applied for web including both frontend and backend.
+* Worked with prototype framework as well as jQuery.
+* Created server applications using node.js.
+* Some NodeJS libraries used: express, consolidate, twig/swig, underscore, mongodb, mocha, should, socket.io...

@@ -6,5 +6,4 @@ tags: graphviz
 datetype: none
 ---
 
-He utilizado en varias ocasiones el programa graphviz para renderizar grafos.
-
+I have used graphviz a few times in order to render some directed graphs.

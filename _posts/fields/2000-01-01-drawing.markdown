@@ -6,4 +6,4 @@ datetype: none
 proficency: advanced
 ---
 
-En ocasiones, como hobby suelo copiar algunos dibujos y hacer los míos propios.
+Some times as a hobby I copy and draw some stuff.

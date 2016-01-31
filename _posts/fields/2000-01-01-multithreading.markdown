@@ -7,7 +7,7 @@ datetype: none
 proficency: medium
 ---
 
-Creación de programas con varios threads; mutex, semáforos etc. balanceado de trabajo de cada thread. Cada vez mas importante ya que cada vez hay mas procesadores; ordenadores y consolas con varios procesadores y/o cores.
-Implementación de primitivas de sincronización en el kernel para el emulador de psp.
-Trabajado con OpenCL y shaders.
-Utilización de webworkers y tareas sin compartir estado para una ejecución lock-free.
+Created multithreaded apps; mutex, semaphores... balancing all the work with each thread.
+Implemented synchronization primitives for a hle psp emulator kernel.
+Worked with OpenCL and shaders.
+Specially interested in single-threaded asynchronous applications and lock-free workers not sharing state but using message passing.

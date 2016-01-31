@@ -7,5 +7,5 @@ datetype: none
 proficency: medium
 ---
 
-Experiencia con localización de software y páginas web. Conversión y trabajo nativo en codificaciones UTF-8, ISO-8869-1, Shift-JIS (japonés) y GB2312 (chino). Experiencia tratando con textos en idiomas orientales como chino y japonés.
+Experience with software localization and web pages. Encoding conversion and problem handling with: UTF-8, ISO-8869-1, Shift-JIS (japanese) and GB2312 (chinese). Experience working with texts in oriental languages as chinese, japanese and korean.
 

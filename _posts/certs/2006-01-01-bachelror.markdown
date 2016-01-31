@@ -5,4 +5,4 @@ tags:
 links:
 ---
 
-Título de bachillerato.
+Baccalaureate degree.

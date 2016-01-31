@@ -5,4 +5,4 @@ datetype: none
 tags: spanish
 ---
 
-Nací en España y soy nativo.
+I was born in Spain and I'm native.

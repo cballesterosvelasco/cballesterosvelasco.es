@@ -7,4 +7,4 @@ datetype: year
 proficency: medium
 ---
 
-Conocimiento básico sobre Pages, Numbers y KeyNote de Apple.
+Basic knowledge about Apple's Pages, Numbers and KeyNote.

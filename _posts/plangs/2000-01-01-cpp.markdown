@@ -9,6 +9,6 @@ proficency: Advanced
 icon: cpp.png
 ---
 
-Amplios conocimientos de programación en C/C++. Trabajado con IDEs: Dev-Cpp y en especial Microsoft Visual Studio 6, 7, 8 (2005), 9 (2008) hasta 2012.
-Creado diversos proyectos para diversas plataformas. Scripts, programas... Usado con SDL y OpenGL para crear juegos y ports de engines.
-Creado compilador de C en C#
+Extensive knowledge about C/C++. Worked with IDEs: Dev-CPP and specially Microsoft Visual Studio 6, 7, 8 (2005), 9 (2008) and used until 2012.
+Created several projects for several platforms. Scripts, programs... Used SDL and OpenGL to create games and port engines.
+[Created a C compiler in C#](https://github.com/soywiz/ilcc).

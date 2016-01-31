@@ -7,10 +7,10 @@ datetype: none
 proficency: medium
 ---
 
-Creado compilador y máquina virtual completamente funcionales para lenguaje de scripting. Con estructuras de control básicas, foreach, funciones, delegados, generadores y clases. Optimización de código.
+Created a complete and working compiler and virtual machine for a scripting language.
+Including basic control structures, foreach, functions, delegates, generators and classes.
+Code optimization and simple constant propagation.
 
-Creado compiladores de C y PHP en C#.
+Created C and PHP compilers in C#.
 
-Creados un par de sistemas de templates con herencia basados en Twig en C# y en JavaScript/TypeScript.
-
-
+Created a couple of template engines with inheritanced based on twig in C# (node.net) and JavaScript/TypeScript (atpl.js).

@@ -7,4 +7,6 @@ datetype: none
 proficency: advanced
 ---
 
-Creación de dibujo a mano, con tableta, TabletPC. Contorneado de imágenes mediante freehand, flash, photoshop y ilustrator. Coloreado de imágenes con flash y photoshop. Creación digital de imágenes. Retoque fotográfico.
+Some experience with handrawing, and creating digital art with drawing tablets, tabletpc.
+Vertorization using freehand, flash, photoshop and illustrator. Image coloring with flash and photoshop.
+Digital image creation and composition. Photo editing.

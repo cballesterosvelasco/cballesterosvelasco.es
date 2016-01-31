@@ -5,5 +5,6 @@ datetype: none
 tags: english
 ---
 
-Estudié inglés hasta la universidad y leo contínuamente artículos en inglés. Mi comprensión es bastante buena, pero me cuesta entablar conversación.
+I studied english until the university and I'm reading english articles all the days.
+I can understand english pretty well, but my speech skills are rather limited at this point.
 

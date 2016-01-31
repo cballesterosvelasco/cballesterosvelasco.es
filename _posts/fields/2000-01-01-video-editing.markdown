@@ -6,5 +6,6 @@ datetype: none
 proficency: medium
 ---
 
-Edición de un videos. Poner subtítulos, quitar subtítulos. Añadir títulos. Karaokes. Encodear. Muxear. Demuxear. Conceptos sobre: streams, filtros, layers, wrappers, codecs, containers...
+Video editing. Put subtitles and remove subtitles. Add titles, Karaokes. Encoding. Muxing/Demuxing.
+Knowledge about video terminology: streams, filters, layers, wrappers, codecs, containers...
 

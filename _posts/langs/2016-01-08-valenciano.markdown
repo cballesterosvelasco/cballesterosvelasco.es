@@ -6,4 +6,5 @@ tags: valenciano
 title: Valenciano/Catalán
 ---
 
-Nací Valencia y aunque no suelo hablar valenciano, lo entiendo perfectamente.
+I was born in Valencia/Spain and even when I'm not usually speaking it, I can
+understand it without any issue.

@@ -12,11 +12,11 @@ links:
 icon: php.png
 ---
 
-* Amplios conocimientos de programación en PHP para web, consola y aplicaciones cliente.
-* Conocimientos sobre Zend Engine.
-* Desarrolladas diversas extensiones para PHP.
-* Experiencia dando clases de PHP.
-* Experiencia tanto con PHP 4 como con PHP5.
-* Título de ingeniero certificado Zend.
-* Última versión de php usada: 5.4.
-* Blog phpElegante, técnicas y consejos avanzados de programación en PHP.
+* Wide knowledge about PHP for web, terminal and client applications.
+* Knowledge about Zend Engine.
+* Develop several extensions for PHP.
+* Experience teaching PHP.
+* Experience with PHP4 as well as PHP5.
+* Zend certification.
+* Last PHP version used: 5.6.
+* Created phpElegante blog, techniques and advanced tips about PHP programming.

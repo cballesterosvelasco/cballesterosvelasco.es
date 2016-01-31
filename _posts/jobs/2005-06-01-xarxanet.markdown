@@ -12,4 +12,4 @@ dates:
 - 2008-06-01
 ---
 
-Trabajando en XARXANET, S.L. Trabajando como programador web para archivospc.
+Worked for  XARXANET, S.L. Worked as web programmer (frontend and backend) for [archivospc](http://archivospc.com/).

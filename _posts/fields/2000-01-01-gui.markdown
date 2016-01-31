@@ -7,6 +7,6 @@ datetype: none
 proficency: advanced
 ---
 
-Creación de aplicaciones gráficas de entorno de usuario. Hechas con VB, C#, DELPHI y D+DFL. Trabajado con componente scintilla (www.scintilla.org/).
+Created some GUIs. Using VB, C#, DELPHI, D+DFL and Java. Worked with scintilla component ([www.scintilla.org](http://www.scintilla.org)).
 
 

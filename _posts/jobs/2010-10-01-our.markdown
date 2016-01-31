@@ -12,9 +12,9 @@ icon: our.png
 notitle: true
 ---
 
-* Trabajado como programador en The Netwizzy Company para Our.com.
-* Programación en actionscript3 para juegos de facebook.
-* Integración con facebook desde html, javascript y as3.
-* Creado sistema de encriptación y compresión incremental de protocolo para smartfoxserver usando java.
-* Creado deployer en C#.
-* Creado servidor de rankings masivos en tiempo real.
+* Worked as programmer for The Netwizzy Company for Our.com.
+* AS3 programming for facebook games.
+* Facebook integration for html, javascript and as3.
+* Creating a protocol encryption system and incremental compression for smartfoxserver using java.
+* Created deployer using C#.
+* Created a realtime massive ranking server.

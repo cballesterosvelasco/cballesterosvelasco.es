@@ -11,8 +11,8 @@ links:
 icon: assembler.png
 ---
 
-Conocimientos de la arquitectura 80386, funcionamiento e instrucciones básicas.
-Conocimientos mínimos sobre otros procesadores como ARM y SH2. Conocimientos mas avanzados sobre Z80 y MIPS r4000.
-Conocimiento sobre procesadores (mips): allegrex (PSP) y emotion engine (PS2)...
-Conocimientos básicos sobre PPC (PowerPC) (procesador original de MAC, GameCube, Wii, PlayStation 3 y XBOX360).
-Conocimiento de las máquinas virtuales C# (hecha recompilación dinámica MIPS -> .NET IL) y Java (hecho intérprete en php).
+Knowledge about 80386 architecture, how it works, registers and basic instruction set.
+Some knowledge about ARM and SH2. More advanced knowledge about Z80 and MIPS r4000.
+Knowledge about MIPS processors: allegrex (PSP) and emotion engine (PS2)...
+Basic knowledge about PPC (PowerPC) (original MAC processor, GameCube, Wii, PS3 and XBOX360).
+Knowledge about C# virtual machine  (created PSP emulator) as well as Java VM (created a PHP interpreter and a AOT in kotlin).

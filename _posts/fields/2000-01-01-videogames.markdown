@@ -7,9 +7,9 @@ datetype: none
 proficency: advanced
 ---
 
-Programación de videojuegos en 2D para ordenador (C/C++, PHP, DIV(Fenix,CDIV,DIV1/2,Lunea)); dispositivos móviles: Pocket PC (.NET) y Móviles con J2ME; consolas: GBA, Nintendo DS y PSP; juegos via web (Javascript+DHTML, FLASH+ActionScript). Juegos online (servidor+cliente). Uso de shaders opengl (fragment y vertex shaders). Conocimiento del pipeline de opengl. Conocimientos de SDL y Allegro. Gráficos 3D.
+2D videogame programming for computers (C/C++, PHP, DIV(Fenix,CDIV,DIV1/2,Lunea)); mobile devices: Pcket PC (.NET) and Mobiles with J2ME; consoles: GBA, NDS and PSP; web games (Javascript+DHTML, FLASH+ActionScript). Online games (server+client). GLSL (opengl shaders) (fragment and vertex shaders). Knowledge about the opengl pipeline. Knowledge about SDL and Allegro. 3D graphics.
 
-Ejemplos: Tetris en 3D con opengl, GameLib, Lunea, phpmedia, emulador de gameboy, emulador de psp, juegos via web. Conocimientos elementales del API de Havok, Ogre3D y similares. Trabajado con C# para XNA (PC y XBOX360). Creado engine para iPhone usando Squirrel y OpenGL_ES. Trabajado en The Netwizzy Company desarrollando plataforma de juegos en ActionScript 3.
+Examples: 3D Tetris using opengl, GameLib, Lunea, phpmedia, gameboy emulator, psp emulator, web games. Very basic knowledge about Havok, Ogre3D and similar APIs. Worked with C# for XNA (PC y XBOX360). Create iPhone engine using Squirrel and OpenGL_ES. Worked in The Netwizzy Company developing game platform in ActionScript 3. Worked in Akamon Entertainment in AS3 and Kotlin for a game platform.
 
-Trabajado con texturas en formato comprimido DXT1, DXT3, DXT5 y variantes. Creado decompresor. Trabajado con texturas swizzleadas en formado de la máquina: (PSP, Xbox360 y Sega Saturn). Pathfinding A* en matrices bidimensionales y pathfinding TA* sobre superficies trianguladas junto al algoritmo del embudo para encontrar camino directo.
-
+Worked with compressed texture formats including DXT1, DXT3, DXT5 and variants and PVRTC and ETC1.
+Created texture decompressor. Worked with swizzled textures in specific machine format: (PSP, Xbox360 and Sega Saturn). A* Pathfinding for bidimensional matrices and pathfinding TA* over triangulated surfaces as well as implemented the funnel algorithm to find a direct path.

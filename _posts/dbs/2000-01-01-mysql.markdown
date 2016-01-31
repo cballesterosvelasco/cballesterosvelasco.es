@@ -8,6 +8,6 @@ title: MySQL (SQL)
 proficency: advanced
 ---
 
-Conocimiento a nivel avanzado de la base de datos MySQL
-y de aplicación usando PHP mediante extensiones mysql, mysqli y PDO.
-Certificación de MySQL.
+Advanced knowledge aboyt MySQL database.
+Used from PHP using mysql, mysqli and PDO php extensions.
+MySQL certificate.

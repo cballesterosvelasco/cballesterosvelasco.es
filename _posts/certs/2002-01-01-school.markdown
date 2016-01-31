@@ -4,4 +4,4 @@ categories: resume certs
 tags: 
 ---
 
-Graduado escolar.
+Graduated at school.

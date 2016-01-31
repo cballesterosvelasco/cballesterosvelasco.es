@@ -8,4 +8,4 @@ title: MongoDB (NoSQL)
 proficency: medium
 ---
 
-Conocimiento a nivel medio de MongoDB. Creadas varias páginas usando MongoDB sin autosharding.
+Medium knowledge about MongoDB. Created several pages using MongoDB without autosharding.

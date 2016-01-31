@@ -16,7 +16,6 @@ links:
 - http://code.google.com/p/dutils/
 ---
 
-Conocimientos medios y soltura programando en D1.0 y D2.0.
-Desarrollado utilidades gráficas como PopGUI en DFL, multitud de utilidades (romhacking, gestión de sistema...), programas de consola.
-Desarrollado emulador de gameboy, emulador de psp. Desarrollado plugin de cdvd para el emulador pcsx2. Librerías para D.
-
+Medium knowledge about programming in D 1.0 and D 2.0.
+Developed graphical utilities like PopGUI in DFL, lots of utilities including romhacking and terminal tools.
+Developed gameboy emulator and psp emulator. Developed cdvd plugin for pcsx2 emulator. Some D libraries.
