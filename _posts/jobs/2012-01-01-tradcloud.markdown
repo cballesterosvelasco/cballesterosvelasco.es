@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: resume jobs
-tags: Html JavaScript CSS TypeScript Node.JS MongoDB GIT Traducciones Express.JS Photoshop Linux TDD Web
+tags: html js css typescript nodejs mongodb git translations expressjs photoshop linux tdd web
 links:
 - https://tradcloud.com/
 icon: tradcloud.png

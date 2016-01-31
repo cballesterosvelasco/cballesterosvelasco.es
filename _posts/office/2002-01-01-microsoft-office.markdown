@@ -7,4 +7,6 @@ datetype: year
 proficency: medium
 ---
 
-Conocimiento a nivel de usuario de Word, Excel, Access y Powerpoint.
+I have worked with Word, Excel, Access and Powerpoint.
+I can create styled documents, spreadsheets, databases and presentations.
+

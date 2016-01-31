@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: resume certs
-tags: MySQL English
+tags: mysql english
 ---
 
 * MySQL Developer Certification. Carlos Ballesteros Velasco.

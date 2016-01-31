@@ -2,7 +2,7 @@
 layout: post
 categories: resume jobs
 until: 2013-09-01
-tags: GIT SVN TDD Web ActionScript3 Java
+tags: git svn tdd web as3 java
 link: http://mundijuegos.com/
 icon: akamon.png
 notitle: true

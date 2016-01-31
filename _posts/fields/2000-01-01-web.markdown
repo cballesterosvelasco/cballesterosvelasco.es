@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: resume fields
-tags: Html CSS PHP MySQL MongoDB SqLite XML Web
+tags: html css php mysql mongodb sqlite xml web
 title: Web (HTML+PHP)
 datetype: none
 proficency: advanced

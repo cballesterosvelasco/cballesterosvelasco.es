@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: resume jobs
-tags: GIT SVN TDD Web as3 Java JavaScript TypeScript Flash Starling ANT Gradle Kanban Pomodoro
+tags: git svn tdd web as3 java js typescript flash starling ant gradle maven kanban pomodoro
 until: now
 link: http://mundijuegos.com/
 icon: akamon.png

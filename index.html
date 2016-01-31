@@ -5,6 +5,9 @@ layout: default
 <div class="home">
 
     <style type="text/css">
+        body {
+            cursor: default;
+        }
         div.portfolio.item {
             border-top:1px solid #777;
             border-radius: 8px;
@@ -26,6 +29,83 @@ layout: default
             padding: 16px;
             margin: 0;
             margin-top: 64px;
+        }
+
+        .label2 {
+            background: #eee;
+            border-radius: 3px;
+            padding: 3px 5px;
+            font-weight: bold;
+            color: #888;
+            margin: 0 4px 4px 0;
+            font-size: 10.0px;
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+            text-shadow: 0 -1px 0 rgba(255, 255, 255, 0.25);
+            box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.10);
+        }
+
+        .label2.filterResults {
+            background: #f70;
+            color: #fff;
+        }
+
+        .label-programming-language {
+            background: #eee;
+            color: #888;
+        }
+
+        .label-database {
+            background: #fee;
+            color: #a88;
+        }
+
+        .label-frameworks {
+            background: #f4d3ff;
+            color: #8800b5;
+        }
+
+
+        .label-programs {
+            background: #ffd7b4;
+            color: #c45c00;
+        }
+
+        .label-version_control {
+            background: #efe;
+            color: #8a8;
+        }
+
+        .label-tools {
+            background: #fadca6;
+            color: #aa9671;
+        }
+
+        .label-unknown {
+            background: red;
+            color: #aa9671;
+        }
+
+        .label-language {
+            background: #eef;
+            color: #88a;
+        }
+
+        .label-methodology {
+            background: #fef;
+            color: #a8a;
+        }
+
+        .label-field {
+            background: #eff;
+            color: #8aa;
+        }
+
+        .label2 {
+            cursor: pointer;
+        }
+
+        .label2:hover {
+            color: black;
         }
     </style>
 
@@ -104,7 +184,11 @@ layout: default
                 {{ post.content }}
                 {% for tag in post.tags %}
                     {% assign taginfo = site.data.portfoliotags[tag][0] %}
-                    <span class="label label-default">{{ taginfo.name|default:tag }}</span>
+                    {% if taginfo.name %}
+                    <span class="label2 label-{{ taginfo.type }}">{{ taginfo.name }}</span>
+                    {% else %}
+                    <span class="label2 label-unknown">{{ tag }}</span>
+                    {% endif %}
                 {% endfor %}
             </div>
         </div>

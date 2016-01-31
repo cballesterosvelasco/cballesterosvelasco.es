@@ -1,6 +1,81 @@
+# Programming Languages
+html:
+  - type: programming-language
+    name: HTML
+css:
+  - type: programming-language
+    name: CSS
 as3:
-  - type: plangs
+  - type: programming-language
     name: ActionScript3
-c/cpp:
-  - type: plamgs
+cpp:
+  - type: programming-language
     name: C/C++
+java:
+  - type: programming-language
+    name: Java
+js:
+  - type: programming-language
+    name: JavaScript
+typescript:
+  - type: programming-language
+    name: TypeScript
+
+# Tools
+ant:
+  - type: tools
+    name: ANT
+gradle:
+  - type: tools
+    name: Gradle
+maven:
+  - type: tools
+    name: Maven
+
+# Databases
+mongodb:
+  - type: database
+    name: MongoDB
+mysql:
+  - type: database
+    name: MySQL
+
+# Version Control
+git:
+  - type: version_control
+    name: GIT
+svn:
+  - type: version_control
+    name: SVN
+cvs:
+  - type: version_control
+    name: CVS
+
+# Fields
+web:
+  - type: field
+    name: Web
+
+# Programs
+flash:
+  - type: programs
+    name: Flash
+
+# Frameworks/Platforms
+nodejs:
+  - type: frameworks
+    name: Node.JS
+starling:
+  - type: frameworks
+    name: Starling
+
+# Methodologies
+tdd:
+  - type: methodology
+    name: TDD
+pomodoro:
+  - type: methodology
+    name: Pomodoro
+kanban:
+  - type: methodology
+    name: Kanban
