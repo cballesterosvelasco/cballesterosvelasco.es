@@ -73,7 +73,10 @@ layout: default
     {% endfor %}
     {% assign count = "" %}
 
+    <input type="search" id="search" name="search" /><span id="search_results"></span>
+
   {% for section in site.data.portfoliosections %}
+    <div class="section-container" data-sectionid="{{ section.id }}" data-sectionname="{{ section.title }}">
     <h2 name="{{ section.id }}" class="section">{{ section.title }}</h2>
     {% for post in site.posts %}
       {% if post.categories contains section.id %}
@@ -141,9 +144,73 @@ layout: default
         </div>
       {% endif %}
     {% endfor %}
+    </div>
   {% endfor %} 
 
 
   <p class="rss-subscribe">subscribe <a href='{{ "/feed.xml" | prepend: site.baseurl }}'>via RSS</a></p>
 
+  This page has made using.
+  Frontend: html5, css3, bootstrap, jquery, underscore
+  Backend: jekyll, github
+
+    <script type="text/javascript" src="/lib/jquery-2.2.0.min.js"></script>
+    <script type="text/javascript" src="/lib/underscore-min.js"></script>
+    
+    <script type="text/javascript">
+        $().ready(function() {
+            //alert(1);
+            var items = [];
+
+            $('.portfolio.item').each(function(i, e) {
+                var div = e;
+                var section = $(e).parent('.section-container');
+                var sectionId = section.data('sectionid');
+                var sectionName = section.data('sectionname');
+                var text = $(e).text();
+                items.push({
+                    div: div,
+                    text: [sectionName, text].join(' ').replace(/\s+/g, ' ').toLowerCase(),
+                    section: section[0],
+                    sectionId: sectionId,
+                    sectionName: sectionName
+                });
+            });
+
+            var itemsBySection = _.groupBy(items, 'sectionId');
+            var sections = _.keys(itemsBySection).map(function(sectionId) {
+                var items = itemsBySection[sectionId];
+                return {
+                    id : sectionId,
+                    div: items[0].section,
+                    items: items
+                };
+            });
+
+            function displayFilteredEntries(filter) {
+                var visibleItems = items.filter(filter);
+                var invisibleItems = _.difference(items, visibleItems);
+
+                var visibleSections = sections.filter(function(e) {
+                    return _.intersection(e.items, visibleItems).length > 0;
+                });
+                var invisibleSections = _.difference(sections, visibleSections);
+
+                visibleItems.forEach(function(e) { $(e.div).show('fast'); });
+                invisibleItems.forEach(function(e) { $(e.div).hide('fast'); });
+
+                visibleSections.forEach(function(e) { $(e.div).show('fast'); });
+                invisibleSections.forEach(function(e) { $(e.div).hide('fast'); });
+
+                //$(search_results).text('Results: ' + visibleItems.length + ", hiding: " + invisibleItems.length);
+                $(search_results).text('Results: ' + visibleItems.length);
+            }
+
+            $('#search').keyup(function(e) {
+                var value = $('#search').val();
+                var reg = new RegExp(value);
+                displayFilteredEntries(function(e) { return e.text.match(reg) != null; });
+            });
+        });
+    </script>
 </div>

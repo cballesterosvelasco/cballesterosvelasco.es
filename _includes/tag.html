@@ -1,11 +1,11 @@
 {% assign tag = include.tag %}
 {% assign taginfo = site.data.portfoliotags[tag][0] %}
 {% if taginfo.name %}
-<span class="label2 label-{{ taginfo.type }}">{{ taginfo.name }}
+<span class="label2 label-{{ taginfo.type }}" data-tag="{{ tag }}">{{ taginfo.name }}
 {% if count != "" %}({{ count }}){% endif %}
 </span>
 {% else %}
-<span class="label2 label-unknown">{{ tag }}
+<span class="label2 label-unknown" data-tag="{{ tag }}">{{ tag }}
 {% if count != "" %}({{ count }}){% endif %}
 </span>
 {% endif %}

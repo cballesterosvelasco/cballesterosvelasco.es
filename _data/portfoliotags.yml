@@ -202,6 +202,12 @@ photoshop:
 graphviz:
   - type: programs
     name: Graphviz
+intellij:
+  - type: programs
+    name: IntelliJ
+flashdevelop:
+  - type: programs
+    name: FlashDevelop
 
 # Frameworks/Platforms
 nodejs:
