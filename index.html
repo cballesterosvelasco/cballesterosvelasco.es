@@ -19,7 +19,7 @@ layout: default
             border-top:1px solid #007;
             background: linear-gradient(to bottom,  rgba(0,91,119,0.05) 0%,rgba(0,91,119,0.05) 1%,rgba(0,91,119,0) 20%);
         }
-        ul li {
+        #portfolio-entries ul li {
             margin: 0;
             margin-left: -16px;
         }
@@ -28,7 +28,7 @@ layout: default
             color: #333;
             padding: 16px;
             margin: 0;
-            margin-top: 64px;
+            /*margin-top: 64px;*/
         }
 
         .label2 {
@@ -59,6 +59,7 @@ layout: default
         .label-unknown              { background: red    ; color: #aa9671; }
     </style>
 
+    <div class="hide-on-filtering">
     {% for itag in site.data.portfoliotags %}
         {% assign count = 0 %}
         {% capture dummy %}
@@ -71,10 +72,10 @@ layout: default
         {% assign tag2 = itag[0] %}
         {% include tag.html tag=tag2 count=count %}
     {% endfor %}
+    </div>
     {% assign count = "" %}
 
-    <input type="search" id="search" name="search" /><span id="search_results"></span>
-
+<div id="portfolio-entries">
   {% for section in site.data.portfoliosections %}
     <div class="section-container" data-sectionid="{{ section.id }}" data-sectionname="{{ section.title }}">
     <h2 name="{{ section.id }}" class="section">{{ section.title }}</h2>
@@ -146,7 +147,7 @@ layout: default
     {% endfor %}
     </div>
   {% endfor %} 
-
+</div>
 
   <p class="rss-subscribe">subscribe <a href='{{ "/feed.xml" | prepend: site.baseurl }}'>via RSS</a></p>
 
@@ -154,9 +155,6 @@ layout: default
   Frontend: html5, css3, bootstrap, jquery, underscore
   Backend: jekyll, github
 
-    <script type="text/javascript" src="/lib/jquery-2.2.0.min.js"></script>
-    <script type="text/javascript" src="/lib/underscore-min.js"></script>
-    
     <script type="text/javascript">
         $().ready(function() {
             //alert(1);
@@ -170,14 +168,18 @@ layout: default
                 var sectionId = section.data('sectionid');
                 var sectionName = section.data('sectionname');
                 var text = $(e).text();
+                var labels = $(e).find('.label2').toArray().map(function(v) { return $(v).data('tag'); });
                 items.push({
                     div: div,
+                    labels: labels,
                     text: [sectionName, text].join(' ').replace(/\s+/g, ' ').toLowerCase(),
                     section: section[0],
                     sectionId: sectionId,
                     sectionName: sectionName
                 });
             });
+
+            //console.log(items);
 
             var itemsBySection = _.groupBy(items, 'sectionId');
             var sections = _.keys(itemsBySection).map(function(sectionId) {
@@ -198,20 +200,38 @@ layout: default
                 });
                 var invisibleSections = _.difference(sections, visibleSections);
 
-                visibleItems.forEach(function(e) { $(e.div).show('fast'); });
-                invisibleItems.forEach(function(e) { $(e.div).hide('fast'); });
-
                 visibleSections.forEach(function(e) { $(e.div).show('fast'); });
                 invisibleSections.forEach(function(e) { $(e.div).hide('fast'); });
 
+                visibleItems.forEach(function(e) { $(e.div).show('fast'); });
+                invisibleItems.forEach(function(e) { $(e.div).hide('fast'); });
+
+
                 //$(search_results).text('Results: ' + visibleItems.length + ", hiding: " + invisibleItems.length);
                 $(search_results).text('Results: ' + visibleItems.length);
+
+                if (invisibleItems.length == 0) {
+                    $(".hide-on-filtering").show('fast');
+                } else {
+                    $(".hide-on-filtering").hide('fast');
+                }
             }
 
+            var searchTimeout = -1;
             $('#search').keyup(function(e) {
-                var value = $('#search').val();
-                var reg = new RegExp(RegExp.escape(value));
-                displayFilteredEntries(function(e) { return e.text.match(reg) != null; });
+                clearTimeout(searchTimeout);
+                searchTimeout = setTimeout(function() {
+                    var value = $('#search').val();
+                    var reg = new RegExp(RegExp.escape(value));
+                    displayFilteredEntries(function(e) { return e.text.match(reg) != null; });
+                }, 100);
+            });
+
+            $('.label2').click(function(e) {
+                var label = $(e.target).data('tag');
+                displayFilteredEntries(function(e) {
+                    return e.labels.indexOf(label) >= 0;
+                });
             });
         });
     </script>
