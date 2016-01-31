@@ -5,5 +5,5 @@ until: 2001-01-01
 datetype: year
 ---
 
-Educación primera, secundaria y elemental: Rodriguez Fornos & Escolapias (Valencia).
+Early education, elementary and high school: Rodriguez Fornos & Escolapias (Valencia).
 

@@ -9,4 +9,4 @@ proficency: Medium
 icon: scala.png
 ---
 
-TODO
+Created [incomplete java aot compiler](https://github.com/soywiz/java-aot) using scala.

@@ -7,6 +7,7 @@ until: 2012-01-01
 title: pspautotests
 ---
 
-Creé un proyecto para hacer tests de integración portables para todos los emuladores de PSP.
+I created a project to do portable integration tests for all the PSP emulators out there.
 
-Originalmente lo creé para mi emulador cspspemu, posteriormente lo porteé a jpcsp y al final el proyecto ppsspp lo adoptó y lo hizo crecer enormemente.
+Initially I created them for my emulator cspspemu, and later I ported it to jpcsp and it ended being
+adopated by ppsspp emulator, which made it grow a lot.

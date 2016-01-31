@@ -8,16 +8,17 @@ title: atpl.js
 
 Advanced TemPLates (Node.JS).
 
-El proyecto este lo empecé en javascript cuando empecé a tocar node.js y quería tener un sistema de templates idéntico o muy similar al Twig de PHP que había estado usando hasta ahora.
+I strated this project in javascript when I started to use node.js. I wanted to have an identical
+template engine or very similar to Twig from PHP that was what I was using until then.
 
-Entonces me di cuenta de que habían otros proyectos que ya pretendían lo mismo "swig" o "twig.js".
+Then I realized that there were some other projects that aimed to do the same thing: "swig" or "twig.js".
 
-Tras darles casi un año de oportunidades a ambos proyectos y ver que no habían implementado las partes más potentes de twig o que uno de ellos ni siquiera hacía recompilación dinámica, decidí seguir el proyecto.
+After a couple of years giving them opportunities to both projects and relaize that they didn't implemented the most powerful twig parts or that one of them didn't make dynamic recompilation, I decided to continue with the project.
 
-Porté el proyecto a typescript, y seguí haciendo TDD y añadiendo testcases interesantes de la parte potente de twig.
+I ported the project to typescript, and continued making TDD and adding interesting test cases from the powerful twig part.
 
-Hace uso de prototyping de javascript para implementar ámbitos muy rápidos y permitir una herencia flexible y potente
+It uses extensively the prototyping part on javascript in order to implement very fast scopes and allow a flexible and powerful inheritance.
 
-Tiene recompilación dinámica (convierte el template a código javascript que a su vez el V8 convierte en código nativo).
+It has dynamic recompilation (translates template into equivalent Javascript Code, that ends being converted into native code by the V8 runtime).
 
-Ahora mismo ATPL implementa la mayor parte de Twig y está usándose en algún proyecto en producción.
+Right now ATPL implements most of the parts from twig and it is being used in some production projects.

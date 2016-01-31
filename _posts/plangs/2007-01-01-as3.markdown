@@ -14,9 +14,8 @@ links:
 icon: as3.png
 ---
 
-Creadas aplicaciones en flash usando ActionScript.
-Creado juego, animaciones y aplicaciones.
-Creadas dos máquinas virtuales en flash y evaluadores de expresiones.
-Usado Alchemy/FlashCC para integrar código C++ en flash.
-Creación de ANEs. Creado lector de imágenes webp multiplataforma con ANEs y FlashCC.
-Trabajado con facebook para crear juegos en our.com.
+Created flash games, animations and applications using ActionScript.
+Created two virtual machines and expression evaluators in flash.
+Used Alchemy/FlashCC to integrate C++ code in flash + used alchemy opcodes manually for fastest performance.
+Created ANEs. [Created multiplatform webp image decoding with ANEs and FlashCC](https://github.com/soywiz/as3libwebp).
+Worked with facebook APIs to create games in our.com.

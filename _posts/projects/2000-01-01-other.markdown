@@ -11,4 +11,4 @@ links:
 - https://www.openhub.net/accounts/soywiz
 ---
 
-A lo largo de mi vida he creado y participado en decenas de proyectos opensource. Puedes ver la mayor parte de ellos en github, google code y sourceforge.
+In my life I have created and contributed to dozens of opensource projects. You can access most of them at github, google code and sourceforge.

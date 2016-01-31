@@ -4,5 +4,5 @@ categories: resume studies
 datetype: none
 ---
 
-Programador autodidacta usando libros e Internet.
+Self-taught, autodidact and proactive person, reaading books and internet.
 

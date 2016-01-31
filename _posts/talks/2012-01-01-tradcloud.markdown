@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: resume talks
-tags: english translations
+tags: Html JavaScript CSS TypeScript Node.JS MongoDB GIT Traducciones Express.JS Photoshop Linux TDD Web
 ---
 
-Trabajado como Freelance para empresas y particulares.
+Founder and developer of tradcloud.com.

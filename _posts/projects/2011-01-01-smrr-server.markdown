@@ -8,13 +8,10 @@ title: smrr-server
 
 Simple Massive Realtime Ranking Server
 
-Creé este proyecto para our.com.
+It is a very simple ranking server: users have a score associated and an instant associated to that user/score pair.
 
-Es un servidor de rankings muy sencillo: usuarios asociados a una puntuación y a un instante en el que se consigue dicha puntuación.
+It allows to insert scores in logarithmic time, to list scores in linear time and to get the position of an user in logarithmic time.
 
-Permite insertar puntuaciones en tiempo logarítmico, listar puntuaciones en tiempo lineal y obtener la posición de un usuario en tiempo logarítmico.
+The problem was that the only way we have to handle millions of scores and have reasonable times was to precalculate in a daily basis all the data. So it was not scaling well and was not realtime.
 
-El problema era que la única forma que teníamos de trabajar con millones de puntuaciones y tener operaciones con tiempos razonables era precalcular diariamente todos los datos. Con lo que no escalaba bien y no era en tiempo real.
-
-Diseñé un algoritmo basado en árboles RedBlack que añadía stats a los nodos de forma que mantenía la inserción logarítmica y permitía localizar en un tiempo logarítmico un nodo por posición.
-
+I dessigned an algorithm based in RebBlack trees that added stats to all nodes in a way that keeped logarithmic insertion and allowed to locate also in logarithmic time a node by position.

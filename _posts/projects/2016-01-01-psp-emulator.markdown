@@ -15,12 +15,13 @@ links:
 icon: cspspemu.png
 ---
 
-Emulador de PSP originalmente en D, luego en C# y luego pasado a TypeScript funcionando en el navegador.
+PSP emulator originally made using D, then ported to C# and the to TypeScript working in the browser.
 
-Este es el proyecto más largo que he hecho en toda mi vida. (Y aún lo sigo a temporadas.)
+This is the largest project I have done in my whole life up to date. And I'm still updating it when I have some spare time.
 
-Es un proyecto inmenso de más de 100.000 líneas de código que he ido desarrollando durante años.
+It is a really really huge project that includes more than 100,000 lines of code and that I have been developing in the coming years.
 
-Tiene montones y montones de partes y toca la mayor parte de las cosas que me gustan de la programación: emulación, bajo, medio y alto nivel, compiladores y recompilación dinámica, gráficos, audio, sistemas operativos, interfaces gráficas, C#...
+It has lots and lots of things and uses most of the things I like from programming: emulation, low, medium, and high levels, compilers, dynamic recompilation / JIT, graphics,
+audio, operating systems, UIs...
 
-Actualmente la calidad de la recompilación dinámica de la CPU que he logrado es la mejor de todos los emuladores de PSP que hay hasta la fecha. Aunque mi emulador no es el más compatible todavía, es capaz de ejecutar un montón de juegos homebrew y algunos juegos comerciales.
+Even when my emulator is not the most compatible out there, it is capable of running lots of homebrew games and some commercial games.

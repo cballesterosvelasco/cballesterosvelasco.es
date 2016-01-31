@@ -9,9 +9,12 @@ links:
 - http://soywiz.github.io/mine/swf/VisualTest.swf
 ---
 
-Colaboré en el proyecto poly2tri porteando el código a ActionScript3.
+I collaborated in the project poly2tri porting the code to ActionScript3.
 
-Hice una pequeña demo combinando la triangulación de la librería porteada, con una búsqueda de caminos triangulated-a-star y el algoritmo del embudo que implementé para la demo, para encontrar el camino directo más corto entre dos puntos en el mesh de triángulos generado.
+The library aims to make possible to triangulate a set of polygons so you can handle them easily,
+for accelerated APIs drawing, physics and path fidning.
 
-Ver demo
+I made a small demo combining the triangulatiom I made of the ported library, with a path search using
+a TA* (Triangulated A Start) plus a funnel algorithm implementations in order to find the shorted direct path between two points of a mesh of generated triangles.
 
+[Demo here](http://soywiz.github.io/mine/swf/VisualTest.swf)

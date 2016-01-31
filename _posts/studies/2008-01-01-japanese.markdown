@@ -3,9 +3,11 @@ layout: post
 categories: resume studies
 tags: japanese
 datetype: year
+dates:
+- 2010-01-01
 links:
 - http://www.uv.es/confucio/
 icon: confucio.png
 ---
 
-Curso de 40 horas de japonés de nivel 1 (organizado por el instituto confucio).
+Level 1, 40 hours japanese course (from [instituto confucio](http://www.uv.es/confucio/)). Resumed at 2010.

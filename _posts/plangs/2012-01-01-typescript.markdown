@@ -12,5 +12,5 @@ links:
 icon: typescript.png
 ---
 
-Conocimientos de TypeScript. Varios proyectos en desarrollo.
-Creado repositorio de definiciones en github + creación de definiciones.
+Knowledge about TypeScript. Several projects in development.
+Created definition repository at github + created several definitions of some javascript libraries for backend and frontend.

@@ -13,9 +13,14 @@ links:
 - https://github.com/soywiz/haxe-nme-webm
 - https://github.com/soywiz/haxe-nme-webp
 - https://github.com/soywiz/haxe-nme-opus
+- https://github.com/soywiz/haxe-cairo
 icon: haxe.png
 ---
 
-Conocimientos medios de HaXe.
-Creado port de juego usando NME.
-Creadas diversas extensiones opensource para NME: webp, webm, opus.
+Medium knowledge about Haxe.
+Created game port using haxe NME.
+Created several opensource extensions for NME and openfl:
+[webp](https://github.com/soywiz/haxe-nme-webp),
+[webm](https://github.com/soywiz/haxe-nme-webm),
+[opus](https://github.com/soywiz/haxe-nme-opus) and
+[cairo](https://github.com/soywiz/haxe-cairo).

@@ -8,4 +8,5 @@ proficency: Basic
 icon: python.png
 ---
 
-Utilizado Python en un par de proyectos. Utilizado con google appengine y django.
+Used python in a couple of projects.
+Used google appengine and django.

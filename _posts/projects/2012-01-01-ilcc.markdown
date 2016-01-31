@@ -6,16 +6,16 @@ datetype: year
 title: ILCC
 ---
 
-Compilador de C hecho en C# para .NET (genera código IL; ejecutables y dlls).
+C compiler made using C# for .NET (it generates IL code; executables and DLLs).
 
-El código generado es completamente portable y se puede ejecutar el binario sin modificaciones en cualquier plataforma soportada por MS.NET o MONO.
+Generated code is completely portable and you can execute that binary without modifications in any platform supported by Microsoft .NET or Mono.
 
-Incluye el preprocesador de C y la mayor parte de la sintaxis de C.
+It includes C preprocessor and most of the C syntax.
 
-Es capaz de compilar muchos programas sencillos aunque algunos programas más complicados todavía no es capaz de compilarlos.
+It is capable to compile lots of simple programs, though it cannot compile the most complicated ones.
 
-El objetivo del proyecto era compilar ffmpeg en código .NET para poderlo usar en mi emulador de PSP.
+The main objective for that was to compile ffmpeg into .NET code in order to be able to use in my PSP emulator.
 
-Aunque está sin terminar está en un estadio bastante avanzado.
+Even when it is not finished it is in a pretty advanced stage.
 
-Permite dumpear el AST del código C como XML de forma que otros lenguajes lo pueden convertir a otras cosas o generar documentación.
+It allows to dump AST from C code as XML so any other languages can convert them into other stuff or to genreate documentation.

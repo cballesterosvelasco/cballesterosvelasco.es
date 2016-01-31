@@ -9,5 +9,5 @@ links:
 - http://www.cs.helsinki.fi/u/tapasane/
 ---
 
-Cursillo «Foundations of digital Games» impartido por impartido por Tomi A. Pasanen.
+«Foundations of digital Games» taught by Tomi A. Pasanen.
 

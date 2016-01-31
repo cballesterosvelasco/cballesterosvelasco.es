@@ -5,9 +5,10 @@ tags: dart Web
 datetype: none
 until: 2015-01-01
 title: Dart
-proficency: Basic
+proficency: elemental
 icon: dart.png
 ---
 
-Realizadas varias pruebas de servidor con Dart.
-Muy cómodo con la sintaxis y el api.
+Made several server prototypes with Dart.
+Started a xmpp library for Dart.
+Very easy with Dart's syntax and API.
