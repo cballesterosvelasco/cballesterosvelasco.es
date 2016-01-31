@@ -36,9 +36,10 @@ layout: default
             
            <span class="caret"></span></a>
             <ul class="dropdown-menu" style="min-width:400px;padding:8px;overflow:auto;">
+                <li role="separator" class="divider"></li>
             {% for type_info in site.data.portfoliotagstypes %}
                 {% if type_info.pos == idx %}
-                    <li class="dropdown-header"><i class="{{ type_info.icon }}"></i> {{ type_info.title }}</li>
+                    <li class="dropdown-header" style="padding:3px 0;"><i class="{{ type_info.icon }}"></i> {{ type_info.title }}</li>
                 
                 <li>
                 {% for itag in site.data.portfoliotags %}
@@ -65,7 +66,13 @@ layout: default
         </div>
       </form>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="http://old.cballesterosvelasco.es/" target="_blank">Old portfolio</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="glyphicon glyphicon-plus"></i> More <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://old.cballesterosvelasco.es/" target="_blank"><i class="fa fa-level-down"></i> Old portfolio</a></li>
+            <li><a href='{{ "/feed.xml" | prepend: site.baseurl }}' target="_blank"><i class="fa fa-rss"></i> RSS</a></li>
+          </ul>
+        </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-question-circle"></i> Contact <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -81,10 +88,47 @@ layout: default
             <li><a href="https://plus.google.com/100263353369850005475/about" target="_blank"><i class="fa fa-google-plus"></i> Google+</a></li>
           </ul>
         </li>
+        <li>
+            <a href="javascript:void(0);" data-toggle="modal" data-target="#aboutModal"><i class="glyphicon glyphicon-info-sign"></i> Site</a>
+        </li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+
+<div class="modal fade" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="aboutModalLabel"><i class="glyphicon glyphicon-info-sign"></i> About Carlos Ballesteros Velasco portfolio</h4>
+      </div>
+      <div class="modal-body">
+            <div>This page has custom-made using:</div>
+            <h4>Frontend:</h4>
+            <ul>
+                <li><a href="https://www.w3.org/TR/html5/" target="_blank">HTML5</a> (layout)</li>
+                <li><a href="https://www.w3.org/Style/CSS/current-work.en.html" target="_blank">CSS3</a> (styles)</li>
+                <li><a href="http://www.ecma-international.org/ecma-262/5.1/" target="_blank">JavaScript ES5</a> (filtering)</li>
+                <li><a href="http://getbootstrap.com/" tatget="_blank">Bootstrap</a> (layout + styles)</li>
+                <li><a href="https://jquery.com/" tatget="_blank">jQuery</a> (filtering and animating)</li>
+                <li><a href="http://underscorejs.org/" tatget="_blank">Underscore</a> (functional programming)</li>
+                <li><a href="https://fortawesome.github.io/Font-Awesome/" target="_blank">Font Awesome</a> (some more icons)</li>
+            </ul>
+            <h4>Backend:</h4>
+            <ul>
+                <li><a href="http://jekyllrb.com/" target="_blank">Jekyll</a> (static cms)</li>
+                <li><a href="github.com/" target="_blank">Github</a> (hosting)</li>
+            </ul>
+            <div>You can see the sources and git history <a href="https://github.com/cballesterosvelasco/cballesterosvelasco.es" target="_blank">here at github</a>.</div>
+          </dl>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <div style="padding-top:64px;"></div>
 
@@ -254,11 +298,6 @@ layout: default
 <span style="font-size:1.2em;" class="label2 label-hide" id="remove_filtering"><i class="glyphicon glyphicon-remove-circle"></i> Remove filtering</span>
 </div>
 
-  <p class="rss-subscribe">subscribe <a href='{{ "/feed.xml" | prepend: site.baseurl }}'>via RSS</a></p>
-
-  This page has made using.
-  Frontend: html5, css3, bootstrap, jquery, underscore
-  Backend: jekyll, github
 
     <script type="text/javascript">
         $().ready(function() {
