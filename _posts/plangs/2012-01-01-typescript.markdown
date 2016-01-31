@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: resume plangs
-tags: typescript Web
+tags: typescript web
 datetype: year
 until: 2015-01-01
 title: TypeScript

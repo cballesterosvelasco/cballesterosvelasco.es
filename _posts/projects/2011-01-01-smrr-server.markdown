@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: resume projects
-tags: C# Algorithmics Sockets GIT TDD
+tags: csharp algorithmics sockets git tdd
 datetype: year
 title: smrr-server
 ---

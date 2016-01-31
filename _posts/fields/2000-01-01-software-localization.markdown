@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: resume fields
-tags: Traducciones Inglés Español Japonés
+tags: translations english spanish japanese
 title: Software Localization
 datetype: none
 proficency: medium

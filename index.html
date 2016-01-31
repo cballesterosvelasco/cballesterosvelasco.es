@@ -43,83 +43,35 @@ layout: default
             text-shadow: 0 -1px 0 rgba(255, 255, 255, 0.25);
             box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.10);
         }
+        .label2 { cursor: pointer; }
+        .label2:hover { color: black; }
+        .label2.filterResults { background: #f70; color: #fff; }
 
-        .label2.filterResults {
-            background: #f70;
-            color: #fff;
-        }
-
-        .label-programming-language {
-            background: #eee;
-            color: #888;
-        }
-
-        .label-database {
-            background: #fee;
-            color: #a88;
-        }
-
-        .label-frameworks {
-            background: #f4d3ff;
-            color: #8800b5;
-        }
-
-
-        .label-programs {
-            background: #ffd7b4;
-            color: #c45c00;
-        }
-
-        .label-version_control {
-            background: #efe;
-            color: #8a8;
-        }
-
-        .label-tools {
-            background: #fadca6;
-            color: #aa9671;
-        }
-
-        .label-unknown {
-            background: red;
-            color: #aa9671;
-        }
-
-        .label-language {
-            background: #eef;
-            color: #88a;
-        }
-
-        .label-methodology {
-            background: #fef;
-            color: #a8a;
-        }
-
-        .label-field {
-            background: #eff;
-            color: #8aa;
-        }
-
-        .label2 {
-            cursor: pointer;
-        }
-
-        .label2:hover {
-            color: black;
-        }
+        .label-programming-language { background: #eeeeee; color: #888888; }
+        .label-database             { background: #ffeeee; color: #aa8888; }
+        .label-frameworks           { background: #f4d3ff; color: #8800b5; }
+        .label-programs             { background: #ffd7b4; color: #c45c00; }
+        .label-version_control      { background: #eeffee; color: #88aa88; }
+        .label-tools                { background: #fadca6; color: #aa9671; }
+        .label-language             { background: #eeeeff; color: #8888aa; }
+        .label-methodology          { background: #ffeeff; color: #aa88aa; }
+        .label-field                { background: #eeffff; color: #88aaaa; }
+        .label-unknown              { background: red    ; color: #aa9671; }
     </style>
 
-    {% for tag in site.data.portfoliotags %}
+    {% for itag in site.data.portfoliotags %}
         {% assign count = 0 %}
         {% capture dummy %}
             {% for post in site.posts %}
-                {% if post.tags contains tag[0] %}
+                {% if post.tags contains itag[0] %}
                     {% assign count = count|plus:1 %}
                 {% endif %}
             {% endfor %}
         {% endcapture %}
-        <span class="label label-default">{{ tag[0] }} ({{ count }})</span>
+        {% assign tag2 = itag[0] %}
+        {% include tag.html tag=tag2 count=count %}
     {% endfor %}
+    {% assign count = "" %}
 
   {% for section in site.data.portfoliosections %}
     <h2 name="{{ section.id }}" class="section">{{ section.title }}</h2>
@@ -183,12 +135,7 @@ layout: default
             <div class="col-xs-12 col-md-8">
                 {{ post.content }}
                 {% for tag in post.tags %}
-                    {% assign taginfo = site.data.portfoliotags[tag][0] %}
-                    {% if taginfo.name %}
-                    <span class="label2 label-{{ taginfo.type }}">{{ taginfo.name }}</span>
-                    {% else %}
-                    <span class="label2 label-unknown">{{ tag }}</span>
-                    {% endif %}
+                    {% include tag.html tag=tag %}
                 {% endfor %}
             </div>
         </div>

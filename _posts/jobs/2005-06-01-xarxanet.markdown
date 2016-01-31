@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: resume jobs
-tags: PHP Html CSS JavaScript Photoshop Linux XML SVN MySQL Web
+tags: php html css js photoshop linux xml svn mysql web
 links:
 - http://archivospc.com/
 datetype: season

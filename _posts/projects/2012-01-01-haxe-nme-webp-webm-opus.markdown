@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: resume projects
-tags: HaXe C/C++ Muxing Video Processing Audio Processing Image Processing Containers
+tags: haxe cpp muxing video_processing audio_processing image_processing containers
 datetype: year
 title: haxe-nme webm, webp and opus
 links:

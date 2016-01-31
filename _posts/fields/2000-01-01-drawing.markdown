@@ -1,6 +1,7 @@
 ---
 layout: post
 categories: resume fields
+tags: 
 title: Drawing
 datetype: none
 proficency: advanced

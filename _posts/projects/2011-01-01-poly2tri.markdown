@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: resume projects
-tags: ActionScript3 Algorithmics
+tags: as3 algorithmics
 datetype: year
 title: poly2tri (as3)
 links:

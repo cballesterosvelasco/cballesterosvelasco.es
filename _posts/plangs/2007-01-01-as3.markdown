@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: resume plangs
-tags: as3 flash games oss Web
+tags: as3 flash games oss web
 datetype: year
 until: 2015-01-01
 title: ActionScript 3

@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: resume projects
-tags: C/C++ C# Compilers GIT TDD AST
+tags: cpp csharp compilers git tdd ast
 datetype: year
 title: ILCC
 ---

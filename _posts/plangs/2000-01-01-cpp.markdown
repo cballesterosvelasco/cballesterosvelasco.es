@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: resume plangs
-tags: c/c++ c# games romhacking oss
+tags: cpp csharp games romhacking oss
 datetype: year
 until: 2006-01-01
 title: C/C++

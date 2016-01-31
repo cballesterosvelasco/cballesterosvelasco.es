@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: resume fields
-tags: linux mac
+tags: linux mac nginx apache mongodb redis virtualbox mysql
 title: System Administrator
 datetype: none
 proficency: medium

@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: resume fields
-tags: D C# Html
+tags: d csharp html
 title: GUI (Graphical User Interface)
 datetype: none
 proficency: advanced

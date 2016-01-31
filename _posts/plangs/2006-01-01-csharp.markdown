@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: resume plangs
-tags: C# games emulation tdd romhacking oss web async
+tags: csharp games emulation tdd romhacking oss web async
 datetype: year
 until: now
 title: C#

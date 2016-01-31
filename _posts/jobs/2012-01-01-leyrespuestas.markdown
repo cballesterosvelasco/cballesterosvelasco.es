@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: resume jobs
-tags: Html JavaScript CSS PHP MongoDB GIT TDD Photoshop Linux Web
+tags: html js css php mongodb git tdd photoshop linux web
 links:
 - http://leyrespuestas.es/
 icon: leyrespuestas.png

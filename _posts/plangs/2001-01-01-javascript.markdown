@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: resume plangs
-tags: JavaScript Web
+tags: js web
 datetype: year
 until: now
 title: JavaScript

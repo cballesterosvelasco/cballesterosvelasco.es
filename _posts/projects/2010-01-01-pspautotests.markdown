@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: resume projects
-tags: C/C++ Assembly Emulation TDD
+tags: cpp assembler emulation tdd
 datetype: year
 until: 2012-01-01
 title: pspautotests

@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: resume jobs
-tags: ActionScript3 PHP C# Java Html CSS XML JavaScript TypeScript C/C++ HaXe MySQL MongoDB Redis Node.JS Express.JS SVN GIT OpenSource Flash Photoshop Linux TDD Juegos Web Pomodoro
+tags: as3 php csharp java html css xml js typescript cpp haxe mysql mongodb redis nodejs expressjs svn git oss flash photoshop linux tdd games web pomodoro
 links:
 - http://www.freelancer.com/u/soywiz.html
 - http://kawagames.com/

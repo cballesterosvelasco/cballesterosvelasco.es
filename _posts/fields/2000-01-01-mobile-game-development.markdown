@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: resume fields
-tags: Móviles Squirrel C/C++ C# OpenGL HaXe Opengl Shader Language XNA Juegos java kotlin
+tags: mobile squirrel cpp csharp opengl haxe glsl xna games java kotlin async
 title: Mobile Game Development
 datetype: none
 proficency: medium

@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: resume plangs
-tags: PHP C/C++ Web
+tags: php cpp web
 datetype: year
 until: 2012-01-01
 title: PHP

@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: resume plangs
-tags: python Web
+tags: python web
 datetype: none
 title: Python
 proficency: Basic

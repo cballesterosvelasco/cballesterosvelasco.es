@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: resume projects
-tags: JavaScript TypeScript Node.JS TDD Compilers Dynamic Recompilation AST
+tags: js typescript nodejs tdd compilers dynarec ast
 datetype: year
 title: atpl.js
 ---

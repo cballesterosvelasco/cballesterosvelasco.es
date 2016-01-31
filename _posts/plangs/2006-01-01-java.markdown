@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: resume plangs
-tags: Java C/C++ php games
+tags: java cpp php games
 datetype: year
 until: now
 title: Java

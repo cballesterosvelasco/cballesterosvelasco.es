@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: resume fields
-tags: assembly
+tags: assembler
 title: Assembly writting and understanding
 datetype: none
 proficency: medium

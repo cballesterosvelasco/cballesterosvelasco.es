@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: resume fields
-tags: C# D C/C++ PHP JavaScript TypeScript Compiladores AST
+tags: csharp d cpp php js typescript compilers ast
 title: Compilers
 datetype: none
 proficency: medium

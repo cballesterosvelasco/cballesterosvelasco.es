@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: resume fields
-tags: Ensamblador C/C++ C# D Romhacking
+tags: assembler cpp csharp d romhacking
 title: RomHacking
 datetype: none
 proficency: advanced

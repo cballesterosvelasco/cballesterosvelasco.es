@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: resume fields
-tags: Algoritmos de compresión Procesado de imágenes Procesado de audio Procesado de video Contenedores Muxing Archivos Binarios 
+tags: compression image_processing audio_processing video_processing containers muxing binary_files
 title: Misc knowledge
 datetype: none
 proficency: medium

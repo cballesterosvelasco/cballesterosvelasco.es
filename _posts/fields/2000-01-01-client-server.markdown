@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: resume fields
-tags: C# PHP C/C++ D Sockets
+tags: csharp php cpp d sockets
 title: Client/Server Applications
 datetype: none
 proficency: advanced

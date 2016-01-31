@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: resume projects
-tags: D Assembly Emulation OpenGL
+tags: d assembler emulation opengl
 datetype: year
 title: gameboy emulator
 ---

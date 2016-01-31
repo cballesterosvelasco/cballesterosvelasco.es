@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: resume fields
-tags: Photoshop Flash Freehand Illustrator Dibujo Opengl Shader Language JavaScript
+tags: photoshop flash freehand illustrator drawing glsl js
 title: Creation and imaging editing
 datetype: none
 proficency: advanced
@@ -9,4 +9,5 @@ proficency: advanced
 
 Some experience with handrawing, and creating digital art with drawing tablets, tabletpc.
 Vertorization using freehand, flash, photoshop and illustrator. Image coloring with flash and photoshop.
-Digital image creation and composition. Photo editing.
+Digital image creation and composition. Photo editing. Plugin creation. Programatic image creation.
+Created glsl filters.

@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: resume plangs
-tags: dart Web
+tags: dart web
 datetype: none
 until: 2015-01-01
 title: Dart

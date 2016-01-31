@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: resume plangs
-tags: D games emulation romhacking oss
+tags: d games emulation romhacking oss
 datetype: year
 until: 2009-01-01
 title: D

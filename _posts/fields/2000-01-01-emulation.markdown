@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: resume fields
-tags: D C# Emulación Compiladores Recompilación dinámica
+tags: d csharp emulation compilers dynarec
 title: Emulation
 datetype: none
 proficency: advanced

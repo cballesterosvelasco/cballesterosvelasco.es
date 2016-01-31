@@ -2,7 +2,7 @@
 layout: post
 categories: resume jobs
 notitle: true
-tags: Html JavaScript CSS PHP MongoDB GIT Juegos TDD Web XNA HaXe Photoshop Linux OpenGL Opengl Shader Language
+tags: html js css php mongodb git games tdd web xna haxe photoshop linux glsl
 links:
 - http://kawagames.com/
 icon: kawagames.png

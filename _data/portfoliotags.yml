@@ -1,25 +1,68 @@
 # Programming Languages
-html:
+assembler:
   - type: programming-language
-    name: HTML
-css:
+    name: Assembler
+div:
   - type: programming-language
-    name: CSS
+    name: DIV Game Studio
+squirrel:
+  - type: programming-language
+    name: Squirrel
+lua:
+  - type: programming-language
+    name: LUA
 as3:
   - type: programming-language
     name: ActionScript3
 cpp:
   - type: programming-language
     name: C/C++
+d:
+  - type: programming-language
+    name: D
+csharp:
+  - type: programming-language
+    name: C#
 java:
   - type: programming-language
     name: Java
+kotlin:
+  - type: programming-language
+    name: Kotlin
+scala:
+  - type: programming-language
+    name: Scala
 js:
   - type: programming-language
     name: JavaScript
 typescript:
   - type: programming-language
     name: TypeScript
+php:
+  - type: programming-language
+    name: PHP
+python:
+  - type: programming-language
+    name: Python
+dart:
+  - type: programming-language
+    name: Dart
+haxe:
+  - type: programming-language
+    name: HaXe
+
+xml:
+  - type: programming-language
+    name: XML
+html:
+  - type: programming-language
+    name: HTML
+css:
+  - type: programming-language
+    name: CSS
+glsl:
+  - type: programming-language
+    name: OpenGL Shading Language
 
 # Tools
 ant:
@@ -39,6 +82,15 @@ mongodb:
 mysql:
   - type: database
     name: MySQL
+redis:
+  - type: database
+    name: Redis
+sqlite:
+  - type: database
+    name: SqLite
+sphinx:
+  - type: database
+    name: Sphinx
 
 # Version Control
 git:
@@ -55,19 +107,145 @@ cvs:
 web:
   - type: field
     name: Web
+translations:
+  - type: field
+    name: Translations
+linux:
+  - type: field
+    name: Linux
+windows:
+  - type: field
+    name: Windows
+mac:
+  - type: field
+    name: Mac
+oss:
+  - type: field
+    name: OpenSource
+games:
+  - type: field
+    name: Games
+algorithmics:
+  - type: field
+    name: Algorithmics
+maths:
+  - type: field
+    name: Mathematics
+ast:
+  - type: field
+    name: AST
+dsp:
+  - type: field
+    name: Digital Signal Processing
+romhacking:
+  - type: field
+    name: Romhacking
+nginx:
+  - type: field
+    name: Nginx
+apache:
+  - type: field
+    name: Apache
+virtualbox:
+  - type: field
+    name: Virtualbox
+mobile:
+  - type: field
+    name: Mobile
+sockets:
+  - type: field
+    name: Sockets
+dynarec:
+  - type: field
+    name: Dynamic Recompilation
+containers:
+  - type: field
+    name: Containers
+muxing:
+  - type: field
+    name: Muxing
+video_processing:
+  - type: field
+    name: Video Processing
+audio_processing:
+  - type: field
+    name: Audio Processing
+image_processing:
+  - type: field
+    name: Image Processing
+compression:
+  - type: field
+    name: Compression Algorithms
+binary_files:
+  - type: field
+    name: Binary Files
+drawing:
+  - type: field
+    name: Drawing
 
 # Programs
+freehand:
+  - type: programs
+    name: Freehand
+illustrator:
+  - type: programs
+    name: Illustrator
+blender:
+  - type: programs
+    name: Blender
 flash:
   - type: programs
     name: Flash
+photoshop:
+  - type: programs
+    name: Photoshop
+graphviz:
+  - type: programs
+    name: Graphviz
 
 # Frameworks/Platforms
 nodejs:
   - type: frameworks
     name: Node.JS
+expressjs:
+  - type: frameworks
+    name: Express.JS
 starling:
   - type: frameworks
     name: Starling
+xna:
+  - type: frameworks
+    name: XNA
+stage3d:
+  - type: frameworks
+    name: Stage3D
+webgl:
+  - type: frameworks
+    name: WebGL
+opengl:
+  - type: frameworks
+    name: OpenGL
+android:
+  - type: frameworks
+    name: Android
+ios:
+  - type: frameworks
+    name: iOS
+wp:
+  - type: frameworks
+    name: Windows Phone
+compilers:
+  - type: frameworks
+    name: Compilers
+emulation:
+  - type: frameworks
+    name: Emulation
+async:
+  - type: frameworks
+    name: Await/Async
+jekyll:
+  - type: frameworks
+    name: Jekyll
 
 # Methodologies
 tdd:
@@ -79,3 +257,17 @@ pomodoro:
 kanban:
   - type: methodology
     name: Kanban
+
+# Languages
+english:
+  - type: language
+    name: English
+spanish:
+  - type: language
+    name: Spanish
+japanese:
+  - type: language
+    name: Japanese
+valenciano:
+  - type: language
+    name: Valenciano

@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: resume plangs
-tags: haxe oss Web
+tags: haxe oss web
 datetype: year
 until: 2015-01-01
 title: Haxe
