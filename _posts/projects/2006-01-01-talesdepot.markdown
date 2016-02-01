@@ -7,6 +7,7 @@ until: now
 title: TalesDepot
 links:
 - https://talesdepot.net/
+icon: talesdepot.png
 ---
 
 [TalesDepot](http://talesdepot.net/) is a website for publishing stories. Plain short stories, choose your own adventure stories, and visual novels.
