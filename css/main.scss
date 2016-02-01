@@ -86,7 +86,10 @@ h2.section {
     text-shadow: 0 -1px 0 rgba(255, 255, 255, 0.25);
     box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.10);
 }
-.label2 { cursor: pointer; }
+.label2 {
+    cursor: pointer;
+    white-space: nowrap;
+}
 .label2:hover { color: black; }
 .label2.filterResults { background: #f70; color: #fff; }
 
