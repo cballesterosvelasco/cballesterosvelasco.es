@@ -6,14 +6,14 @@ datetype: year
 title: atpl.js
 ---
 
-Advanced TemPLates (Node.JS).
+[Advanced TemPLates (Node.JS)](https://github.com/soywiz/atpl.js).
 
-I strated this project in javascript when I started to use node.js. I wanted to have an identical
-template engine or very similar to Twig from PHP that was what I was using until then.
+I started this project in javascript when I begin to use node.js. I wanted to have an identical
+template engine or very similar to PHP's Twig / Python Django that was what I was using until then.
 
-Then I realized that there were some other projects that aimed to do the same thing: "swig" or "twig.js".
+Then I realized that there were some other projects that aimed to do the same thing: "swig" and "twig.js".
 
-After a couple of years giving them opportunities to both projects and relaize that they didn't implemented the most powerful twig parts or that one of them didn't make dynamic recompilation, I decided to continue with the project.
+After a couple of years giving them opportunities to both projects I realized that they didn't implemented the most powerful twig parts and that one of them didn't even make dynamic recompilation, so I decided to continue with the project.
 
 I ported the project to typescript, and continued making TDD and adding interesting test cases from the powerful twig part.
 
