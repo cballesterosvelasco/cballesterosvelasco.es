@@ -6,6 +6,7 @@ datetype: year
 links:
 - http://www.trainingexpress.es/en/home/
 icon: training_express.jpg
+map: Barcelona
 ---
 
 Pre-intermediate, 43 hours englush course taught by [Training Express SL](http://www.trainingexpress.es/en/home/).

@@ -3,6 +3,7 @@ layout: post
 categories: resume studies
 until: 2001-01-01
 datetype: year
+map: Valencia
 ---
 
 Early education, elementary and high school: Rodriguez Fornos & Escolapias (Valencia).

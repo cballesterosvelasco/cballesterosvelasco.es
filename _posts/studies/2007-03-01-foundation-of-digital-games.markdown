@@ -7,6 +7,7 @@ datetype: month
 links:
 - http://www.upv.es/contenidos/GIG/asignaturas/vj-tp/index.html
 - http://www.cs.helsinki.fi/u/tapasane/
+map: Valencia
 ---
 
 «Foundations of digital Games» taught by Tomi A. Pasanen.
