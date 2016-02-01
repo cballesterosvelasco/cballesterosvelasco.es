@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: resume plangs
-tags: kotlin games web emulation romhacking
+tags: scala aot java
 datetype: year
 title: Scala
 proficency: Medium
