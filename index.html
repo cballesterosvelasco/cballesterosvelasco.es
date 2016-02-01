@@ -288,7 +288,9 @@ layout: default
                 <div>({{ post.proficency }})</div>
                 {% endif %}
                 {% if post.map %}
-                <div><a href="https://www.google.es/maps/place/{{ post.map }}" target="_blank"><i class="fa fa-map-marker"></i> {{ post.map }}</a></div>
+                {% for map in post.map %}
+                <div><a href="https://www.google.es/maps/place/{{ map }}" target="_blank"><i class="fa fa-map-marker"></i> {{ map }}</a></div>
+                {% endfor %}
                 {% endif %}
             </div>
             <div class="col-xs-12 col-md-8">

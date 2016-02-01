@@ -8,7 +8,7 @@ dates:
 links:
 - http://www.uv.es/confucio/
 icon: confucio.png
-map: Tokyo
+map: Valencia
 ---
 
 Level 1, 40 hours japanese course (from [instituto confucio](http://www.uv.es/confucio/)). Resumed at 2010.
