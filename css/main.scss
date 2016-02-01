@@ -101,3 +101,11 @@ h2.section {
 .label-field                { background: #eeffff; color: #88aaaa; }
 .label-hide                 { background: #ffd7b4; color: #c45c00; }
 .label-unknown              { background: red    ; color: #aa9671; }
+
+body {
+    background:url('/img/background.jpg') no-repeat fixed #e6e6e6;
+    background-color:#e6e6e6 !important;
+}
+div.wrapper {
+    background: white;
+}
