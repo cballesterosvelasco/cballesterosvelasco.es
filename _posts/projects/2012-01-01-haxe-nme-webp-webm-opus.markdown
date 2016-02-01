@@ -15,7 +15,7 @@ haxe-nme-webp, haxe-nme-webm and haxe-nme-opus.
 
 Those aimed to be able to:
 
-[Decode webp images](https://github.com/soywiz/haxe-nme-webp), that is a pretty efficient image format. Supporting lossy and lossless compression and alpha channel in both cases, as well as a beterr compression rate than jpeg and png. So it is a suitable image format substitute for games, specially on mobile where it is interesting having images in a fraction of the size.
+[Decode webp images](https://github.com/soywiz/haxe-nme-webp). Webp is a pretty efficient image format. Supporting lossy and lossless compression and alpha channel in both cases, as well as a better compression rate than jpeg and png. So it is a suitable image format suitable for games, specially on mobile where it is interesting having images in a fraction of the size.
 
 [Decode and play webm videos](https://github.com/soywiz/haxe-nme-webm). Webm is a container based on ogg/riff, that uses VP8 as video codec and vorbis as audio codec. So I included both video and audio decoders.
 
