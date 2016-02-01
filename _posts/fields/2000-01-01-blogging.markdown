@@ -1,0 +1,10 @@
+---
+layout: post
+categories: resume fields
+tags: wordpress blogger jekyll github
+title: Blogging
+datetype: none
+---
+
+Experience with blogging. I have used wordpress, blogger and lately jekyll.
+I have [my own blog (in spanish)](http://blog.cballesterosvelasco.es/), [a php blog phpElegante](http://php.soywiz.com/) and [a kotlin community](http://kotlin.es/).

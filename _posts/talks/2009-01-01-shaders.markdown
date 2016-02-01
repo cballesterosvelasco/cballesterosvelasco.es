@@ -4,8 +4,11 @@ categories: resume talks
 tags: php glsl
 links:
 - http://blog.cballesterosvelasco.es/2011/01/charla-sobre-shaders.html
+- https://www.youtube.com/watch?v=LJyqA_DGuHg
 map: Barcelona
 ---
 
-Shaders presentation at softonic. Explained PixelBender shaders and shaders in general. Used my phpmedia project for the exposition.
+Presentation about shaders at softonic. Explained PixelBender shaders and shaders in general. Used my phpmedia project for the exposition.
 
+* [You can see the blog post here](http://blog.cballesterosvelasco.es/2011/01/charla-sobre-shaders.html)
+* [And the youtube video here](https://www.youtube.com/watch?v=LJyqA_DGuHg)

@@ -4,7 +4,7 @@ categories: resume projects
 tags: cpp d csharp js typescript assembler emulation dynarec opengl glsl git tdd ast compression image_processing audio_processing dsp video_processing containers muxing binary_files sockets linux windows mac android ios wp
 datetype: year
 from: 2007-01-01
-title: PSP Emulator (dpspsemu, cspspemu, jspspemu)
+title: PSP Emulator (dpspemu, cspspemu, jspspemu)
 links:
 - https://github.com/soywiz/cspspemu
 - https://github.com/soywiz/dpspemu
@@ -15,7 +15,7 @@ links:
 icon: cspspemu.png
 ---
 
-PSP emulator originally made using D, then ported to C# and the to TypeScript working in the browser.
+PSP emulator [originally made using D](https://github.com/soywiz/pspemu), then [ported to C#](https://github.com/soywiz/cspspemu) and then [to TypeScript working in the browser](https://github.com/jspspemu/jspspemu).
 
 This is the largest project I have done in my whole life up to date. And I'm still updating it when I have some spare time.
 

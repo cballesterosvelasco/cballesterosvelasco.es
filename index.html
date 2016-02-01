@@ -22,8 +22,6 @@ layout: default
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="http://blog.cballesterosvelasco.es/" target="_blank"><i class="fa fa-wordpress"></i>
- Blog</a></li>
 
         {% for idx in (0..2) %}
         <li class="dropdown">
@@ -36,21 +34,31 @@ layout: default
             
            <span class="caret"></span></a>
             <ul class="dropdown-menu" style="min-width:400px;padding:8px;overflow:auto;">
-                <li role="separator" class="divider"></li>
             {% for type_info in site.data.portfoliotagstypes %}
                 {% if type_info.pos == idx %}
-                    <li class="dropdown-header" style="padding:3px 0;"><i class="{{ type_info.icon }}"></i> {{ type_info.title }}</li>
+                    <li class="dropdown-header" style="padding:10px 0;"><i class="{{ type_info.icon }}"></i> {{ type_info.title }}</li>
                 
                 <li>
                 {% for itag in site.data.portfoliotags %}
                     {% assign tag2 = itag[0] %}
                     {% assign tag_info = site.data.portfoliotags[tag2][0] %}
                     {% if type_info.id == tag_info.type %}
-                        {% include tag.html tag=tag2 %}
+                        {% assign count = 0 %}
+                        {% capture dummy %}
+                            {% for post in site.posts %}
+                                {% if post.tags contains itag[0] %}
+                                    {% assign count = count|plus:1 %}
+                                {% endif %}
+                            {% endfor %}
+                        {% endcapture %}
+                        {% assign tag2 = itag[0] %}
+                        {% include tag.html tag=tag2 count=count %}
                     {% endif %}
                 {% endfor %}
+
+                {% assign count = "" %}
+
                 </li>
-                <li role="separator" class="divider"></li>
                 {% endif %}
             {% endfor %}
             </ul>
@@ -69,6 +77,8 @@ layout: default
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="glyphicon glyphicon-plus"></i> More <span class="caret"></span></a>
           <ul class="dropdown-menu">
+            <li><a href="http://blog.cballesterosvelasco.es/" target="_blank"><i class="fa fa-wordpress"></i> Blog (spanish)</a></li>
+            <li><a href="http://kotlin.es/" target="_blank"><i class="fa fa-wordpress"></i> Kotlin.es (spanish)</a></li>
             <li><a href="http://old.cballesterosvelasco.es/" target="_blank"><i class="fa fa-level-down"></i> Old portfolio</a></li>
             <li><a href='{{ "/feed.xml" | prepend: site.baseurl }}' target="_blank"><i class="fa fa-rss"></i> RSS</a></li>
           </ul>
@@ -298,6 +308,10 @@ layout: default
 <span style="font-size:1.2em;" class="label2 label-hide" id="remove_filtering"><i class="glyphicon glyphicon-remove-circle"></i> Remove filtering</span>
 </div>
 
+<div style="display:none;" class="show-on-empty-filtering">
+<h2 style="color:red;"><i class="fa fa-exclamation-triangle"></i> Nothing to show!</h2>
+</div>
+
 
     <script type="text/javascript">
         $().ready(function() {
@@ -355,13 +369,13 @@ layout: default
                 //$(search_results).text('Results: ' + visibleItems.length + ", hiding: " + invisibleItems.length);
                 $(search_results).text('Results: ' + visibleItems.length);
 
-                if (invisibleItems.length == 0) {
-                    $(".hide-on-filtering").show('fast');
-                    $(".show-on-filtering").hide('fast');
-                } else {
-                    $(".hide-on-filtering").hide('fast');
-                    $(".show-on-filtering").show('fast');
-                }
+                var hasVisibleItems = visibleItems.length > 0;
+                var isFiltering = invisibleItems.length != 0;
+
+                $(".hide-on-filtering").toggle(!isFiltering, 'fast');
+                $(".show-on-filtering").toggle(isFiltering, 'fast');
+                $('.show-on-empty-filtering').toggle(!hasVisibleItems, 'fast');
+
                 $('#search').focus();
             }
 
@@ -376,6 +390,7 @@ layout: default
             });
 
             $('.label2').click(function(e) {
+                $('#search').val('');
                 var label = $(e.target).data('tag');
                 displayFilteredEntries(function(e) {
                     return e.labels.indexOf(label) >= 0;
@@ -391,3 +406,5 @@ layout: default
         });
     </script>
 </div>
+
+

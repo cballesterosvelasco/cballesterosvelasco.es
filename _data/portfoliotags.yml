@@ -222,6 +222,9 @@ starling:
 xna:
   - type: frameworks
     name: XNA
+libgdx:
+  - type: frameworks
+    name: Libgdx
 stage3d:
   - type: frameworks
     name: Stage3D
@@ -255,6 +258,9 @@ promises:
 jekyll:
   - type: frameworks
     name: Jekyll
+jtransc:
+  - type: frameworks
+    name: JTransc
 
 # Methodologies
 tdd:
@@ -266,6 +272,9 @@ pomodoro:
 kanban:
   - type: methodology
     name: Kanban
+scrum:
+  - type: methodology
+    name: Scrum
 
 # Languages
 english:
