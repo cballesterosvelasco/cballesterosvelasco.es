@@ -6,7 +6,7 @@ datetype: year
 until: now
 title: HTML5
 proficency: Advanced
-icon: html5.png
+icon: html5.svg
 ---
 
 Knowledge about HTML 5 and CSS 3, worked in conjuntion with JavaScript Ecmascript/2015.

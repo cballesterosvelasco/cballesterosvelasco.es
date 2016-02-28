@@ -6,7 +6,7 @@ datetype: year
 until: 2009-01-01
 title: D
 proficency: Advanced
-icon: d.png
+icon: dlang.svg
 links:
 - http://foro.tales-tra.com/viewtopic.php?t=109
 - http://www.dprogramming.com/dfl.php

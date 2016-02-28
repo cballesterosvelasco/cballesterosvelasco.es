@@ -158,6 +158,12 @@ sockets:
 dynarec:
   - type: field
     name: Dynamic Recompilation
+aot:
+  - type: field
+    name: Ahead of Time
+cfg:
+  - type: field
+    name: Control flow Graph
 containers:
   - type: field
     name: Containers

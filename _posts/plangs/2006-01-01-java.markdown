@@ -6,7 +6,7 @@ datetype: year
 until: now
 title: Java
 proficency: Advanced
-icon: java.png
+icon: java.svg
 links:
 - http://www.oracle.com/technetwork/java/index.html
 - http://code.google.com/p/jpcsp/

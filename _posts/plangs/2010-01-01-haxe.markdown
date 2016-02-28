@@ -14,7 +14,7 @@ links:
 - https://github.com/soywiz/haxe-nme-webp
 - https://github.com/soywiz/haxe-nme-opus
 - https://github.com/soywiz/haxe-cairo
-icon: haxe.png
+icon: haxe.svg
 ---
 
 Medium knowledge about Haxe.

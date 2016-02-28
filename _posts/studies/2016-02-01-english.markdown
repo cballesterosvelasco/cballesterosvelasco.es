@@ -1,0 +1,12 @@
+---
+layout: post
+categories: resume studies
+tags: english
+datetype: year
+links:
+- http://www.tigerenglishacademy.com/
+icon: tiger_english_academy.png
+map: Valencia
+---
+
+Preparing for english B2. Course taught by [Tiger English Academy](http://www.tigerenglishacademy.com/).

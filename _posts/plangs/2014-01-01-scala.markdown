@@ -5,7 +5,7 @@ tags: scala aot java
 datetype: year
 title: Scala
 proficency: Medium
-icon: scala.png
+icon: scala.svg
 ---
 
 Created [incomplete java aot compiler](https://github.com/soywiz/java-aot) using scala.

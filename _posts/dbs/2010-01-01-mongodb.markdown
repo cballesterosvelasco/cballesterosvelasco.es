@@ -6,6 +6,7 @@ until: now
 tags: mongodb
 title: MongoDB (NoSQL)
 proficency: medium
+icon: mongodb.svg
 ---
 
 Medium knowledge about MongoDB. Created several pages using MongoDB without autosharding.

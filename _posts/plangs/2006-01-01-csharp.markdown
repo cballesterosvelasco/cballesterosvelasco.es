@@ -6,7 +6,7 @@ datetype: year
 until: now
 title: C#
 proficency: Advanced
-icon: csharp.png
+icon: dotnet.svg
 links:
 - http://code.google.com/p/csharputils/
 - http://pspemu.soywiz.com/
@@ -19,4 +19,3 @@ Medium knowledge about .NET technology and C# language for PC, .NET Framwork: Po
 Created PSP emulator in C# with dynamic recompilation as a successor of my psp emulator in D.
 Knowledge until .NET 4.5 including all the work of async + await.
 [Developed a prototype of node.js for .net 4.5 (node.net)](https://github.com/soywiz/NodeNetAsync).
-

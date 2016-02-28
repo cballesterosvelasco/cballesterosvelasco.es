@@ -6,7 +6,7 @@ datetype: none
 until: 2015-01-01
 title: Dart
 proficency: elemental
-icon: dart.png
+icon: dart.svg
 ---
 
 Made several server prototypes with Dart.

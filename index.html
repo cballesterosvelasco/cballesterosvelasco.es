@@ -15,7 +15,7 @@ layout: default
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="#">
-          <img src="/img/logo.svg" style="width:32px;height:32px;drop-shadow:2px 2px 2px white;margin-top:-7px;" />
+          <img src="/img/cbv_logo.svg" style="width:32px;height:32px;drop-shadow:2px 2px 2px white;margin-top:-7px;" />
       </a>
     </div>
 
@@ -31,13 +31,13 @@ layout: default
                 {% when 1 %}More tags
                 {% when 2 %}Even more tags
             {% endcase %}
-            
+
            <span class="caret"></span></a>
             <ul class="dropdown-menu" style="min-width:400px;padding:8px;overflow:auto;">
             {% for type_info in site.data.portfoliotagstypes %}
                 {% if type_info.pos == idx %}
                     <li class="dropdown-header" style="padding:10px 0;"><i class="{{ type_info.icon }}"></i> {{ type_info.title }}</li>
-                
+
                 <li>
                 {% for itag in site.data.portfoliotags %}
                     {% assign tag2 = itag[0] %}
@@ -67,7 +67,7 @@ layout: default
 
 
       </ul>
-      <form class="navbar-form navbar-left" role="search">
+      <form class="navbar-form navbar-left" role="search" onsubmit="return false;">
         <div class="form-group">
         <label for="search-input" style="position:relative;left:28px;"><i class="fa fa-search"></i></label>
         <input type="search" id="search" name="search" class="form-control" placeholder="Search" autofocus style="padding-left:32px;border-radius:32px;" /><span id="search_results"></span>
@@ -165,7 +165,7 @@ layout: default
                 <img src="img/face.jpg" style="width:217px;height:240px;border:2px solid black;box-shadow: rgba(0, 0, 0, 0.2) 3px 3px 6px;" />
             </div>
             <div class="col-xs-12 col-md-7">
-               
+
 
                 <p>I'm a developer born in Valencia (Spain), 29 years old.</p>
 
@@ -212,7 +212,7 @@ layout: default
         <p>
             I love to work with passion, with talent and pushing the limits
             of what's possible.
-        </p>        
+        </p>
     </div>
   </div>
 
@@ -303,7 +303,7 @@ layout: default
       {% endif %}
     {% endfor %}
     </div>
-  {% endfor %} 
+  {% endfor %}
 </div>
 
 <div style="position:fixed;right:16px;top:64px;display:none;" class="show-on-filtering">
@@ -315,107 +315,5 @@ layout: default
 </div>
 
 
-    <script type="text/javascript">
-        $().ready(function() {
-            //alert(1);
-            var items = [];
-
-            RegExp.escape = function(s) { return s.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&'); };
-
-            $('.portfolio.item').each(function(i, e) {
-                var div = e;
-                var section = $(e).parent('.section-container');
-                var sectionId = section.data('sectionid');
-                var sectionName = section.data('sectionname');
-                var text = $(e).text();
-                var labels = $(e).find('.label2').toArray().map(function(v) { return $(v).data('tag'); });
-                items.push({
-                    div: div,
-                    labels: labels,
-                    text: [sectionName, text].join(' ').replace(/\s+/g, ' ').toLowerCase(),
-                    section: section[0],
-                    sectionId: sectionId,
-                    sectionName: sectionName
-                });
-            });
-
-            //console.log(items);
-
-            var itemsBySection = _.groupBy(items, 'sectionId');
-            var sections = _.keys(itemsBySection).map(function(sectionId) {
-                var items = itemsBySection[sectionId];
-                return {
-                    id : sectionId,
-                    div: items[0].section,
-                    items: items
-                };
-            });
-
-            function displayFilteredEntries(filter) {
-                var visibleItems = items.filter(filter);
-                var invisibleItems = _.difference(items, visibleItems);
-
-                var visibleSections = sections.filter(function(e) {
-                    return _.intersection(e.items, visibleItems).length > 0;
-                });
-                var invisibleSections = _.difference(sections, visibleSections);
-
-                visibleSections.forEach(function(e) { $(e.div).show('fast'); });
-                invisibleSections.forEach(function(e) { $(e.div).hide('fast'); });
-
-                visibleItems.forEach(function(e) { $(e.div).show('fast'); });
-                invisibleItems.forEach(function(e) { $(e.div).hide('fast'); });
-
-                $("html, body").animate({ scrollTop: 0 }, "fast");
-
-                //$(search_results).text('Results: ' + visibleItems.length + ", hiding: " + invisibleItems.length);
-                $(search_results).text('Results: ' + visibleItems.length);
-
-                var hasVisibleItems = visibleItems.length > 0;
-                var isFiltering = invisibleItems.length != 0;
-
-                $(".hide-on-filtering").toggle(!isFiltering, 'fast');
-                $(".show-on-filtering").toggle(isFiltering, 'fast');
-                $('.show-on-empty-filtering').toggle(!hasVisibleItems, 'fast');
-
-                $('#search').focus();
-            }
-
-            var searchTimeout = -1;
-            var lastSearch = '';
-            $('#search').keyup(function(e) {
-                var value = $('#search').val().toLowerCase();
-                if (value != lastSearch) {
-                    lastSearch = value;
-                    clearTimeout(searchTimeout);
-                    searchTimeout = setTimeout(function() {
-                        var reg = new RegExp(RegExp.escape(value));
-                        displayFilteredEntries(function(e) { return e.text.match(reg) != null; });
-                    }, 100);
-                }
-            });
-
-            function clearSearch() {
-                lastSearch = '';
-                $('#search').val('');
-            }
-
-            $('.label2').click(function(e) {
-                clearSearch();
-                var label = $(e.target).data('tag');
-                displayFilteredEntries(function(e) {
-                    return e.labels.indexOf(label) >= 0;
-                });
-            });
-
-            $('#remove_filtering').click(function(e) {
-                clearSearch();
-                displayFilteredEntries(function(e) {
-                    return true;
-                });
-            });
-        });
-    </script>
+    <script type="text/javascript" src="/lib/cballesterosvelasco.js"></script>
 </div>
-
-

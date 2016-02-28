@@ -6,6 +6,7 @@ until: 2008-01-01
 tags: sphinx
 title: Sphinx (NoSQL/SQL)
 proficency: elemental
+icon: sphinx.png
 ---
 
 Basic knowledge Sphinx for document search.

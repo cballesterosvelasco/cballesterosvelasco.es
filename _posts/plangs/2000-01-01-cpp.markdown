@@ -6,7 +6,7 @@ datetype: year
 until: 2006-01-01
 title: C/C++
 proficency: Advanced
-icon: cpp.png
+icon: cpp.svg
 ---
 
 Extensive knowledge about C/C++. Worked with IDEs: Dev-CPP and specially Microsoft Visual Studio 6, 7, 8 (2005), 9 (2008) and used until 2012.

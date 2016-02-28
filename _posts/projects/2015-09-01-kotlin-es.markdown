@@ -5,6 +5,7 @@ tags: kotlin html jekyll intellij spanish
 datetype: year
 until: now
 title: Kotlin.es
+icon: kotlin_es.svg
 links:
 - https://kotlin.es/
 ---

@@ -1,0 +1,13 @@
+---
+layout: post
+categories: resume projects
+tags: kotlin java haxe aot git tdd ast cfg binary_files linux windows mac android
+datetype: year
+to: now
+title: JTransc
+links:
+- https://github.com/jtransc/jtransc
+icon: jtransc.svg
+---
+
+JVM aot compiler that generates Haxe with initial focus on games.

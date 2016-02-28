@@ -10,7 +10,7 @@ links:
 - http://prototypejs.org/
 - http://nodejs.org/
 - http://jquery.com/
-icon: javascript.png
+icon: nodejs.svg
 ---
 
 * Knowledge about JavaScript (and other languages based on ECMAScript like AS3, TypeScript and so on) applied for web including both frontend and backend.

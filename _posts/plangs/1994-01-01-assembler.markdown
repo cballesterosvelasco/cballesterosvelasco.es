@@ -8,7 +8,7 @@ title: Assembler
 proficency: Medium
 links:
 - https://github.com/soywiz/phpJavaVM
-icon: assembler.png
+icon: nasm.svg
 ---
 
 Knowledge about 80386 architecture, how it works, registers and basic instruction set.

@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: resume projects
-tags: cpp d csharp js typescript assembler emulation dynarec opengl glsl git tdd ast compression image_processing audio_processing dsp video_processing containers muxing binary_files sockets linux windows mac android ios wp
+tags: cpp d csharp js typescript assembler emulation dynarec opengl glsl git tdd ast compression image_processing audio_processing dsp video_processing containers muxing binary_files sockets linux windows mac android ios wp promises
 datetype: year
 from: 2007-01-01
 title: PSP Emulator (dpspemu, cspspemu, jspspemu)

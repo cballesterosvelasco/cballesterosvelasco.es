@@ -9,4 +9,4 @@ icon: training_express.jpg
 map: Barcelona
 ---
 
-Pre-intermediate, 43 hours englush course taught by [Training Express SL](http://www.trainingexpress.es/en/home/).
+Pre-intermediate, 43 hours english course taught by [Training Express SL](http://www.trainingexpress.es/en/home/) at Softonic.

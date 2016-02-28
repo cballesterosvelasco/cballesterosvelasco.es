@@ -5,7 +5,7 @@ tags: python web
 datetype: none
 title: Python
 proficency: Basic
-icon: python.png
+icon: python.svg
 ---
 
 Used python in a couple of projects.

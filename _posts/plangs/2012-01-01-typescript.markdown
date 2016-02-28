@@ -9,7 +9,7 @@ proficency: Advanced
 links:
 - http://www.typescriptlang.org/
 - https://github.com/soywiz/typescript-node-definitions
-icon: typescript.png
+icon: typescript.svg
 ---
 
 Knowledge about TypeScript. Several projects in development.
