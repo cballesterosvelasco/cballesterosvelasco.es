@@ -261,6 +261,9 @@ async:
 promises:
   - type: frameworks
     name: Promises
+coroutines:
+  - type: frameworks
+    name: Coroutines
 jekyll:
   - type: frameworks
     name: Jekyll
