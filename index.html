@@ -23,7 +23,7 @@ layout: default
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
 
-        {% for idx in (0..2) %}
+        {% for idx in (0..0) %}
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
             <i class="fa fa-tags"></i> {% case idx %}
@@ -33,33 +33,25 @@ layout: default
             {% endcase %}
 
            <span class="caret"></span></a>
-            <ul class="dropdown-menu" style="min-width:400px;padding:8px;overflow:auto;">
+            <ul class="dropdown-menu" style="min-width:400px;padding:8px;max-height:80vh;overflow-x:hidden;overflow-y:auto;">
             {% for type_info in site.data.portfoliotagstypes %}
-                {% if type_info.pos == idx %}
-                    <li class="dropdown-header" style="padding:10px 0;"><i class="{{ type_info.icon }}"></i> {{ type_info.title }}</li>
+                <li class="dropdown-header" style="padding:0;padding-bottom:18px;font-size:1.2em;"><i class="{{ type_info.icon }}"></i> {{ type_info.title }}</li>
 
-                <li>
-                {% for itag in site.data.portfoliotags %}
-                    {% assign tag2 = itag[0] %}
-                    {% assign tag_info = site.data.portfoliotags[tag2][0] %}
-                    {% if type_info.id == tag_info.type %}
-                        {% assign count = 0 %}
-                        {% capture dummy %}
-                            {% for post in site.posts %}
-                                {% if post.tags contains itag[0] %}
-                                    {% assign count = count|plus:1 %}
-                                {% endif %}
-                            {% endfor %}
-                        {% endcapture %}
-                        {% assign tag2 = itag[0] %}
-                        {% include tag.html tag=tag2 count=count %}
-                    {% endif %}
+                <li style="padding-bottom:18px;">
+                {% assign type_info_id=type_info.id %}
+
+                {% assign expr="item[0].type=='" | append: type_info_id | append: "'" %}
+
+                {% assign filteredtags = site.data.portfoliotags | where_exp: "item", expr %}
+
+                {% for itag in filteredtags %}
+                    {% assign expr="item.tags contains '" | append: itag[0].id | append: "'" %}
+                    {% assign items=site.posts | where_exp: "item", expr %}
+                    {% assign count = items | size %}
+                    {% assign tagid=itag[0].id %}{% include tag.html tag=tagid count=count %}
+                    {% assign count = "" %}
                 {% endfor %}
-
-                {% assign count = "" %}
-
                 </li>
-                {% endif %}
             {% endfor %}
             </ul>
         </li>
@@ -165,8 +157,6 @@ layout: default
                 <img src="img/face.jpg" style="width:240px;height:240px;border:2px solid black;box-shadow: rgba(0, 0, 0, 0.2) 3px 3px 6px;" />
             </div>
             <div class="col-xs-12 col-md-7">
-
-
                 <p>I'm a developer born in Valencia (Spain), 30 years old.</p>
 
                 <p>I have lived most of my life here at Valencia, I was a year in Barcelona and a few months in Granada. Right now I'm living at Valencia.</p>
@@ -231,8 +221,9 @@ layout: default
   {% for section in site.data.portfoliosections %}
     <div class="section-container" data-sectionid="{{ section.id }}" data-sectionname="{{ section.title }}">
     <h2 name="{{ section.id }}" class="section"><i class="{{ section.icon }}"></i> {{ section.title }}</h2>
-    {% for post in site.posts %}
-      {% if post.categories contains section.id %}
+    {% assign expr = "item.categories contains '" | append: section.id | append: "'" %}
+    {% assign categoryposts = site.posts | where_exp: "item", expr %}
+    {% for post in categoryposts %}
         <div class="row portfolio item">
             <div class="col-xs-12 col-md-4" style="text-align:center;">
                 <div>
@@ -295,19 +286,16 @@ layout: default
             </div>
             <div class="col-xs-12 col-md-8">
                 {{ post.content }}
-                {% for tag in post.tags %}
-                    {% include tag.html tag=tag %}
-                {% endfor %}
+                {% for tag in post.tags %}{% include tag.html tag=tag %}{% endfor %}
             </div>
         </div>
-      {% endif %}
     {% endfor %}
     </div>
   {% endfor %}
 </div>
 
 <div style="position:fixed;right:16px;top:64px;display:none;" class="show-on-filtering">
-<span style="font-size:1.2em;" class="label2 label-hide" id="remove_filtering"><i class="glyphicon glyphicon-remove-circle"></i> Remove filtering</span>
+<span style="font-size:1.2em;" class="label2 label-hide" id="remove_filtering"><i class="glyphicon glyphicon-remove-circle"></i> Remove filtering (<span id="filtercount"></span>)</span>
 </div>
 
 <div style="display:none;" class="show-on-empty-filtering">

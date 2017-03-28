@@ -38,6 +38,11 @@
   icon: glyphicon glyphicon-ok-circle
   pos: 2
 
+- id: websites
+  title: websites
+  icon: glyphicon glyphicon-link
+  pos: 2
+
 - id: language
   title: Languages
   icon: glyphicon glyphicon-globe

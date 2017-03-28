@@ -8,4 +8,4 @@ icon: korge.png
 notitle: true
 ---
 
-Working on Korge Game Engine, Articles, Tutorials, Videos and OSS. Set-UP Patreon: [patreon.com/soywiz](http://www.patreon.com/soywiz)
+Working on Korge Game Engine, Articles, Tutorials, Videos and OSS.  [github.com/soywiz/korlibs](http://github.com/soywiz/korlibs)
