@@ -1,11 +1,11 @@
 ---
 layout: post
 categories: resume awards
-tags: cpp algorithmics 
+tags: cpp algorithmics
 links:
 - http://www.ioinformatics.org/locations/ioi06/results.shtml
 - http://es.wikipedia.org/wiki/Olimpiada_Inform%C3%A1tica_Espa%C3%B1ola#Resultados_OIE_2006
-icon: ioi.jpg
+icon: ioi.png
 map: Mexico
 ---
 

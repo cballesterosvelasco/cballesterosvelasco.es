@@ -153,8 +153,8 @@ layout: default
   <div class="tab-content" style="padding:22px 0 0 0;">
     <div role="tabpanel" class="tab-pane active" id="home">
         <div class="row">
-            <div class="col-xs-12 col-md-5">
-                <img src="img/face.jpg" style="width:240px;height:240px;border:2px solid black;box-shadow: rgba(0, 0, 0, 0.2) 3px 3px 6px;" />
+            <div class="col-xs-12 col-md-5" style="text-align:center;">
+                <img src="img/face.jpg" style="width:240px;height:240px;border:2px solid black;box-shadow: rgba(0, 0, 0, 0.2) 3px 3px 6px;margin-bottom:16px;" />
             </div>
             <div class="col-xs-12 col-md-7">
                 <p>I'm a developer born in Valencia (Spain), 30 years old.</p>
@@ -265,7 +265,7 @@ layout: default
                     {% endif %}
                 </div>
                 {% if post.icon %}
-                <div><img src="img/icons/{{ post.icon }}" /></div>
+                <div><img src="img/icons/{{ post.icon }}" style="width:50%;height:auto;" /></div>
                 {% endif %}
                 {% if post.notitle %}
                     {% assign post_title = "" %}
