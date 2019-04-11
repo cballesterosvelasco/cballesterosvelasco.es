@@ -1,0 +1,14 @@
+---
+layout: post
+categories: resume projects
+tags: cpp kotlin compilers
+datetype: year
+from: 2017-01-26
+until: now
+title: KTCC
+links:
+- https://korlibs.soywiz.com/ktcc/
+icon: ktcc.svg
+---
+
+C Compiler and small IDE written in Kotlin.

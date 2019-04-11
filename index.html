@@ -298,9 +298,14 @@ layout: default
                 {% else %}
                     {% assign post_title = post.title %}
                 {% endif %}
-                {% if post_title %}
-                <div>{{ post_title }}</div>
-                {% endif %}
+                <div>
+                  {{ post_title }}
+                  {% if post.links %}
+                    <sup>
+                      {% for link in post.links %}<a href="{{ link }}" target="_blank">[{{ forloop.index }}]</a> {% endfor %}
+                    </sup>
+                  {% endif %}
+                </div>
                 {% if post.proficency %}
                 <div>({{ post.proficency }})</div>
                 {% endif %}
