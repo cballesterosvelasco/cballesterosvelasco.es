@@ -108,6 +108,10 @@ mysql:
   - type: database
     id: mysql
     name: MySQL
+postgresql:
+  - type: database
+    id: postgresql
+    name: PostgreSQL
 redis:
   - type: database
     id: redis
@@ -284,6 +288,26 @@ flashdevelop:
     name: FlashDevelop
 
 # Frameworks/Platforms
+multiplatform:
+  - type: frameworks
+    id: multiplatform
+    name: Multiplatform
+aws:
+  - type: frameworks
+    id: aws
+    name: Amazon Web Services
+elasticbeanstalk:
+  - type: frameworks
+    id: elasticbeanstalk
+    name: Elastic Beanstalk
+serverless:
+  - type: frameworks
+    id: serverless
+    name: Serverless
+angular:
+  - type: frameworks
+    id: angular
+    name: Angular
 nodejs:
   - type: frameworks
     id: nodejs
@@ -316,6 +340,10 @@ opengl:
   - type: frameworks
     id: opengl
     name: OpenGL
+ktor:
+  - type: frameworks
+    id: ktor
+    name: Ktor
 android:
   - type: frameworks
     id: android
@@ -360,6 +388,10 @@ github:
   - type: websites
     id: github
     name: GitHub
+travis:
+  - type: websites
+    id: travis
+    name: Travis
 wordpress:
   - type: websites
     id: wordpress

@@ -157,16 +157,22 @@ layout: default
                 <img src="img/face.jpg" style="width:240px;height:240px;border:2px solid black;box-shadow: rgba(0, 0, 0, 0.2) 3px 3px 6px;margin-bottom:16px;" />
             </div>
             <div class="col-xs-12 col-md-7">
-                <p>I'm a developer born in Valencia (Spain), 30 years old.</p>
+                <p>I'm a developer born in Valencia (Spain), <span id="age">32</span> years old.</p>
+
+                <p>
+                  Since I was pretty young I have been very passionated about programming, technology and videogames,
+                  I started specializing myself in web development including front and back (and I have been working on lots of different stuff since I was 14).
+                  I have lots of experience in other fields.
+                </p>
 
                 <p>I have lived most of my life here at Valencia, I was a year in Barcelona and a few months in Granada. Right now I'm living at Valencia.</p>
 
                 <p>
-                Since I was pretty young I was very passionated about programming and videogames,
-                I started specializing myself in web development including front and back (and I have been working since I was 14)
-                I have lots of experience in other fields.
+                  Due to personal circumstances I can't move to another country or city, though I can do business and sync travels.
+                  So I will consider only Remote or Valencia-based offers.
                 </p>
-            </div>
+
+              </div>
         </div>
 
     </div>
@@ -217,10 +223,17 @@ layout: default
 
 <div class="home">
 
+  <style type="text/css">
+    .section.section-header {
+      cursor: pointer;
+    }
+  </style>
+
 <div id="portfolio-entries">
   {% for section in site.data.portfoliosections %}
     <div class="section-container" data-sectionid="{{ section.id }}" data-sectionname="{{ section.title }}">
-    <h2 name="{{ section.id }}" class="section"><i class="{{ section.icon }}"></i> {{ section.title }}</h2>
+    <h2 name="{{ section.id }}" data-toggle="collapse" data-target="#section-{{ section.id }}" class="section section-header"><i class="{{ section.icon }}"></i> {{ section.title }}</h2>
+    <div id="section-{{ section.id }}" aria-expanded="true" class="collapse in">
     {% assign expr = "item.categories contains '" | append: section.id | append: "'" %}
     {% assign categoryposts = site.posts | where_exp: "item", expr %}
     {% for post in categoryposts %}
@@ -290,6 +303,7 @@ layout: default
             </div>
         </div>
     {% endfor %}
+    </div>
     </div>
   {% endfor %}
 </div>

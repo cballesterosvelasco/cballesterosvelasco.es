@@ -4,6 +4,8 @@ categories: resume jobs
 tags: kotlin scala java gradle kanban
 icon: schibsted.svg
 notitle: true
+map:
+  - Barcelona
 ---
 
-Working at Schibsted Products and Technologies
+Worked at Schibsted Products and Technologies on the productivity team.

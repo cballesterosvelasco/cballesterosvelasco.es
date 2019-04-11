@@ -11,4 +11,4 @@ map:
   - Barcelona
 ---
 
-Technical lead at [akamon.com](http://akamon.com/) / [mundijuegos.com](http://mundijuegos.com/).
+Frontend Technical lead at [akamon.com](http://akamon.com/) / [mundijuegos.com](http://mundijuegos.com/).

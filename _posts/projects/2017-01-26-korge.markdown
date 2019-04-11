@@ -4,10 +4,13 @@ categories: resume projects
 tags: kotlin games opengl glsl git coroutines
 datetype: year
 from: 2017-01-26
-title: KorLIBS
+until: now
+title: KorGE
 links:
-- https://github.com/soywiz/korge
+- https://korge.soywiz.com/
 icon: korge.png
 ---
 
-Korio + Korte + Korim + Korag + Korau + Korui + Korge
+[Opensource KorGE Game Engine](https://korge.soywiz.com/).
+
+* 1.0 was released early 2019 after a couple of years of development.
