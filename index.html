@@ -67,6 +67,14 @@ layout: default
       </form>
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sections <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            {% for section in site.data.portfoliosections %}
+            <li><a href="#section-container-{{ section.id }}"><i class="{{ section.icon }}"></i> {{ section.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+        <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="glyphicon glyphicon-plus"></i> More <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="http://blog.cballesterosvelasco.es/" target="_blank"><i class="fa fa-wordpress"></i> Blog (spanish)</a></li>
@@ -227,11 +235,16 @@ layout: default
     .section.section-header {
       cursor: pointer;
     }
+    .navbar-inverse {
+      background-color: rgba(0,0,0,0.8);
+      -webkit-backdrop-filter: blur(5px);
+      backdrop-filter: blur(5px);
+    }
   </style>
 
 <div id="portfolio-entries">
   {% for section in site.data.portfoliosections %}
-    <div class="section-container" data-sectionid="{{ section.id }}" data-sectionname="{{ section.title }}">
+    <div id="section-container-{{ section.id }}" class="section-container" data-sectionid="{{ section.id }}" data-sectionname="{{ section.title }}">
     <h2 name="{{ section.id }}" data-toggle="collapse" data-target="#section-{{ section.id }}" class="section section-header"><i class="{{ section.icon }}"></i> {{ section.title }}</h2>
     <div id="section-{{ section.id }}" aria-expanded="true" class="collapse in">
     {% assign expr = "item.categories contains '" | append: section.id | append: "'" %}
