@@ -1,9 +1,0 @@
----
-layout: post
-categories: resume fields
-title: Graphviz
-tags: graphviz
-datetype: none
----
-
-I have used graphviz a few times in order to render some directed graphs.

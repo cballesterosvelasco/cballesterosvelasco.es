@@ -1,9 +1,0 @@
----
-layout: post
-categories: resume langs
-datetype: none
-tags: japanese
-title: Japanese (日本語)
----
-
-I have studied japanese. I have been a couple of times in japan.

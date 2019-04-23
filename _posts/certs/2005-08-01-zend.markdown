@@ -1,9 +1,0 @@
----
-layout: post
-categories: resume certs
-tags: php english
-links:
-- http://www.zend.com/en/yellow-pages/ZEND002412
----
-
-Zend certified engineer (one of the first 1,000).

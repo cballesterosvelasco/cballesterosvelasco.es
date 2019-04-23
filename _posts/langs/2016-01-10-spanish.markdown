@@ -1,8 +1,0 @@
----
-layout: post
-categories: resume langs
-datetype: none
-tags: spanish
----
-
-I was born in Spain and I'm native.

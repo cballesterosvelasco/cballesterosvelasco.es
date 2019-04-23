@@ -1,9 +1,0 @@
----
-layout: post
-categories: resume certs
-tags: japanese
-links:
-- http://japones.uv.es/
----
-
-Course of 40 hours of japanese level 1 (taught by "instituto confucio" at UV)
